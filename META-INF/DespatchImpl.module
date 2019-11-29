@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<public>
+		<component name="IDespatch" remote="false" singleton="false" tx="NONE">
+            <implementation>nc.impl.fy.DespatchImpl</implementation>
+        </component>
+	</public>
+	<private>
+	</private>
+</module>

@@ -1,0 +1,44 @@
+package nc.impl.uap.busibean.license;
+
+import java.util.Collections;
+import java.util.Map;
+import nc.bs.pub.install.SecurityLicCtl;
+import nc.itf.uap.license.ILicenseService;
+
+public class LicenseImpl
+  implements ILicenseService
+{
+  @SuppressWarnings("unchecked")
+public int getProductLicense(String product)
+  {
+    Map licMap = Collections.synchronizedMap(SecurityLicCtl.getInstance().getProductLicenses());
+
+    if (licMap.containsKey(product))
+      return ((Integer)licMap.get(product)).intValue();
+    if (licMap.containsKey("*")) {
+      if (product.equals("corp")) {
+        return 500;
+      }
+      return ((Integer)licMap.get("*")).intValue();
+    }
+    return -1;
+  }
+
+  public String getProductCode(String moduleCode)
+  {
+    return SecurityLicCtl.getInstance().getProductCode(moduleCode);
+  }
+
+  public boolean isUsedGLBook()
+  {
+    return SecurityLicCtl.getInstance().isUsedGLBook();
+  }
+
+  @SuppressWarnings("unchecked")
+public boolean isNCDEMO()
+  {
+    Map licMap = Collections.synchronizedMap(SecurityLicCtl.getInstance().getProductLicenses());
+
+    return licMap.containsKey("*");
+  }
+}

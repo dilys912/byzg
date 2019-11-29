@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="153"
+   name=""
+   committed-date="2019-08-23T03:10:51.412242Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504"
+   last-author="zy"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   name="META-INF"
+   kind="dir"/>
+<entry
+   committed-rev="100"
+   name=".classpath"
+   text-time="2019-08-23T03:31:13.431065Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="66a2f5eec223d487b42562b92fc797ab"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.137577Z"/>
+<entry
+   committed-rev="100"
+   name=".project"
+   text-time="2019-08-23T03:31:13.431065Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="40f997a16479e945ffe1dbc39086c348"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.481540Z"/>
+<entry
+   name="doc"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="out"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="bin"
+   kind="dir"/>
+<entry
+   name="docs"
+   kind="dir"/>
+<entry
+   name="ws"
+   kind="dir"/>
+<entry
+   name="resources"
+   kind="dir"/>
+<entry
+   name=".settings"
+   kind="dir"/>
+<entry
+   committed-rev="100"
+   name=".module_prj"
+   text-time="2019-08-23T03:31:13.446691Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="8a9b124ac16257a172efd226385cb040"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:13.399812Z"/>
+</wc-entries>

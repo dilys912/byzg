@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<public>
+		<component name="ISaveMo6600" remote="false" singleton="false" tx="NONE">
+            <implementation>nc.impl.mm.mm6600.SaveMo6600Impl</implementation>
+        </component>
+	</public>
+	<private>
+	</private>
+</module>

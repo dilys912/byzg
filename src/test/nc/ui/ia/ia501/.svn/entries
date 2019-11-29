@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/ui/ia/ia501"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="InoutLedgerNormalPanel.java"
+   text-time="2019-08-23T03:30:48.279161Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="39c2a804c1064c5e490e81806c3a86f8"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:48.263535Z"/>
+<entry
+   committed-rev="100"
+   name="QueryConditionPanel.java"
+   text-time="2019-08-23T03:30:48.279161Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="c6a927df03559e348ff07aac32281f39"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:48.263535Z"/>
+<entry
+   committed-rev="100"
+   name="QueryPrintDataSource.java"
+   text-time="2019-08-23T03:30:48.294787Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="9061d13cf182dd7c5318ec6579532b94"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:48.279161Z"/>
+<entry
+   committed-rev="100"
+   name="InoutLedgerClientUI.java"
+   text-time="2019-08-23T03:30:48.294787Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="0da4e8eb2751ea966cb4f2cd89ecd82b"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:48.279161Z"/>
+</wc-entries>

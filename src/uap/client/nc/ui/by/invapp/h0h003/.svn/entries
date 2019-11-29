@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/client/nc/ui/by/invapp/h0h003"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="ClientCtrl.java"
+   text-time="2019-08-23T03:31:11.656006Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="300ed224033fa2986bca5f3fd5a18730"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.650880Z"/>
+<entry
+   committed-rev="100"
+   name="ClientUI.java"
+   text-time="2019-08-23T03:31:11.656006Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="8ce250004399d20796c72e56f9236315"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.653889Z"/>
+<entry
+   committed-rev="100"
+   name="ClientEventHandler.java"
+   text-time="2019-08-23T03:31:11.671632Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="278bc437cb7667adf93f9b1cd4ad67d8"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.656006Z"/>
+<entry
+   committed-rev="100"
+   name="WriteToExcel.java"
+   text-time="2019-08-23T03:31:11.671632Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="dbfb85d1eca3c959e7f4cd37ad759bff"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.656006Z"/>
+</wc-entries>

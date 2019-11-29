@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/public/nc/vo/mo/mo6600"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="GlItemBVO.java"
+   text-time="2019-08-23T03:30:32.212965Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="948625bab2beca5f312957c8f3624831"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.197339Z"/>
+<entry
+   committed-rev="100"
+   name="GlHeadVO.java"
+   text-time="2019-08-23T03:30:32.212965Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="cb4b45a626ea1e9aa10fd91d6bedf8ce"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.197339Z"/>
+<entry
+   committed-rev="100"
+   name="GlBillVO.java"
+   text-time="2019-08-23T03:30:32.212965Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="5b73b8a10d40bdf559ef1ac911c6160a"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.197339Z"/>
+</wc-entries>

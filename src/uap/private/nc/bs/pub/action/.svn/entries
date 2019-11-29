@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/private/nc/bs/pub/action"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="N_TA02_APPROVE.java"
+   text-time="2019-08-23T03:31:11.259325Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="eb43b26fc0d690ba5fcbaccfeb62bb3c"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.243698Z"/>
+<entry
+   committed-rev="100"
+   name="N_TA02_SAVE.java"
+   text-time="2019-08-23T03:31:11.259325Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="dfa01448b136bc088e64162845ecb89e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.243698Z"/>
+<entry
+   committed-rev="100"
+   name="N_TA02_UNAPPROVE.java"
+   text-time="2019-08-23T03:31:11.259325Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="0b398394f8bc5f0507be0ec0c1904a8f"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.243698Z"/>
+<entry
+   committed-rev="100"
+   name="N_TA02_DELETE.java"
+   text-time="2019-08-23T03:31:11.274951Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="ea98335d35b3c9ac6ae9bce8cebf7fe0"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.243698Z"/>
+<entry
+   committed-rev="100"
+   name="N_TA02_EDIT.java"
+   text-time="2019-08-23T03:31:11.274951Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a261e041fe0af026b83ca1465e5daa75"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.243698Z"/>
+<entry
+   committed-rev="100"
+   name="N_TA02_WRITE.java"
+   text-time="2019-08-23T03:31:11.274951Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="62acd43b13f41f16ff45fa330c06784e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.243698Z"/>
+</wc-entries>

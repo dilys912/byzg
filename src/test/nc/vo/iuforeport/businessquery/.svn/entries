@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/vo/iuforeport/businessquery"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="QueryBaseDef.java"
+   text-time="2019-08-23T03:30:45.963046Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="80ff8cb4e1d6d0689f3ec2117c198d2f"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:45.914113Z"/>
+<entry
+   committed-rev="100"
+   name="QueryUtil.java"
+   text-time="2019-08-23T03:30:45.978671Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="c4dad8ebba75eb7f6ce7d93a5b77ad9b"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:45.963046Z"/>
+</wc-entries>

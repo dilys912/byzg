@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/public/nc/vo/by/invapp/h0h002"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="INVMANDOCVO.java"
+   text-time="2019-08-23T03:31:12.774531Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="e502ca51b6da8f94698363fe4407a54a"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.290379Z"/>
+<entry
+   committed-rev="100"
+   name="ConvertVO.java"
+   text-time="2019-08-23T03:31:12.774531Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="80b38ff003ec1277e5e3b47e7330f3cb"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.290379Z"/>
+<entry
+   committed-rev="100"
+   name="MyExAggVO.java"
+   text-time="2019-08-23T03:31:12.774531Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="ea7e17ce64dfb987aa81e45c2acdd364"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.290379Z"/>
+<entry
+   committed-rev="100"
+   name="PRODUCEVO.java"
+   text-time="2019-08-23T03:31:12.790157Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="e1d0a6b9093ddc40d18db8abc0233213"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.306006Z"/>
+<entry
+   committed-rev="100"
+   name="InvappdocVO.java"
+   text-time="2019-08-23T03:31:12.790157Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="8a68bcf3ecd8d8cb29ce6b4265d09dee"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.696847Z"/>
+<entry
+   committed-rev="100"
+   name="DCONVERTVO.java"
+   text-time="2019-08-23T03:31:12.805784Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="b4a542285160e8cb5ea344747160de4e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.712026Z"/>
+<entry
+   committed-rev="100"
+   name="INVBASDOCVO.java"
+   text-time="2019-08-23T03:31:12.805784Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="62a701e74081bb1b9526a3f5679f0cc9"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.759339Z"/>
+</wc-entries>

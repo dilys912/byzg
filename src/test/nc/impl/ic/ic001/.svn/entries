@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/impl/ic/ic001"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="BatchcodeDMO.java"
+   text-time="2019-08-23T03:30:34.635738Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="986a1fab0d23cd5fe9aaeeafd6bfa058"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:34.635738Z"/>
+<entry
+   committed-rev="100"
+   name="BatchcodeImpl.java"
+   text-time="2019-08-23T03:30:34.651365Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="c6c3bfc669295ff09847eff74293ad4f"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:34.635738Z"/>
+</wc-entries>

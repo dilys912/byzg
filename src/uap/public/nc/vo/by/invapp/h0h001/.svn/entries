@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/public/nc/vo/by/invapp/h0h001"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="AggINVCLVO01.java"
+   text-time="2019-08-23T03:31:12.259127Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="c76f4c8a7a2d2636800af317d2b2a470"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.243499Z"/>
+<entry
+   committed-rev="100"
+   name="INVCLATTRIBUTEVO01.java"
+   text-time="2019-08-23T03:31:12.259127Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="0b2bb407621976af87b41cff03a87dc4"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.243499Z"/>
+<entry
+   committed-rev="100"
+   name="SHOWVO.java"
+   text-time="2019-08-23T03:31:12.274752Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="47d84bc770ba78da276ee9020feac140"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.259127Z"/>
+</wc-entries>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<public>
+		<component name="xcl">
+			<interface>nc.itf.ws.baoyin.Ixcl</interface>
+			<implementation>nc.impl.ws.baoyin.xcll</implementation>
+			<extension class="nc.uap.ws.deploy.OxbWSExtensionProcessor">
+				<wsdl>/nc/itf/ws/baoyin/Ixcl.wsdl</wsdl>
+				<address>/xcl</address>
+			</extension>
+		</component>
+	</public>
+	<private>
+	</private>
+</module>

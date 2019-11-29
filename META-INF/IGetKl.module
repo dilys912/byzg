@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<public>
+		<component name="IGetKl" remote="false" singleton="false" tx="NONE">
+            <implementation>nc.impl.ic.getKlrep.GetKlImpl</implementation>
+        </component>
+	</public>
+	<private>
+	</private>
+</module>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module name="ic">
+	<public>
+	
+	</public>
+	<private>
+		<component name="PDAServiceExecutor" priority="0" singleton="true" remote="true" tx="CMT" supportAlias="true">
+			<interface>nc.itf.ws.baoyin.IPDAServiceExecutor</interface>
+	      	<implementation>nc.impl.ws.baoyin.PDAServiceExecutorImpl</implementation>
+	    </component>
+	</private>
+</module>

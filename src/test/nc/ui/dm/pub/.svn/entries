@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/ui/dm/pub"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="ClientUIforBill.java"
+   text-time="2019-08-23T03:30:49.829382Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="1fe1241abda3fbebd17727ca4465377d"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:49.751286Z"/>
+<entry
+   committed-rev="100"
+   name="DMToftPanel.java"
+   text-time="2019-08-23T03:30:49.829382Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="cc6faab10afcf89cfb7ab44f146ab681"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:49.798127Z"/>
+<entry
+   committed-rev="100"
+   name="ClientUIforPlan.java"
+   text-time="2019-08-23T03:30:49.845008Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="ce3fcccfc6e8f1f087181ec1475ab191"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:49.813755Z"/>
+</wc-entries>

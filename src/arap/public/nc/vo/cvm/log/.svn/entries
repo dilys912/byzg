@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="99"
+   name=""
+   committed-date="2019-07-16T07:30:26.435285Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/arap/public/nc/vo/cvm/log"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="99"
+   name="LogVO.java"
+   text-time="2019-08-23T03:31:00.978450Z"
+   committed-date="2019-07-16T07:30:26.435285Z"
+   checksum="0d931a0b50368038a6df832a162d6dcc"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:00.962869Z"/>
+</wc-entries>

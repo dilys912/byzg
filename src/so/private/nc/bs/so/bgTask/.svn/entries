@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/so/private/nc/bs/so/bgTask"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="HbsaleTask.java"
+   text-time="2019-08-23T03:30:55.486819Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a3a74e021db0f87810982a219dbd85ab"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.455563Z"/>
+<entry
+   committed-rev="100"
+   name="RxsaleTask.java"
+   text-time="2019-08-23T03:30:55.486819Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="eeccee5f4ff1ac041d0dac2a7972eddb"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.471189Z"/>
+<entry
+   committed-rev="100"
+   name="BysaleTask.java"
+   text-time="2019-08-23T03:30:55.502443Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="e16762cd1af1d4b7ee8051c89cd2c3b3"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.471189Z"/>
+<entry
+   committed-rev="100"
+   name="WhsaleTask.java"
+   text-time="2019-08-23T03:30:55.502443Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="0511ca1fa1bdafdbe624f30d0739d269"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.471189Z"/>
+<entry
+   committed-rev="100"
+   name="FsBysaleTask.java"
+   text-time="2019-08-23T03:30:55.502443Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="10a50cebe24ed52c10cdd9cfc16de75e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.471189Z"/>
+<entry
+   committed-rev="100"
+   name="HnsaleTask.java"
+   text-time="2019-08-23T03:30:55.518069Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a7b60eafdf816578c6fc051c0605099b"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.471189Z"/>
+<entry
+   committed-rev="100"
+   name="CDsaleTask.java"
+   text-time="2019-08-23T03:30:55.518069Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="c0f480ac34c590ecdb3524d73903e0b0"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.471189Z"/>
+<entry
+   committed-rev="100"
+   name="HrbBysaleTask.java"
+   text-time="2019-08-23T03:30:55.533695Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a18af27dbf547c223e82c2e42f6966be"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.486819Z"/>
+</wc-entries>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<public>
+		<component name="IQueryNoStock" remote="false" singleton="false" tx="NONE">
+            <implementation>nc.bs.ic.stock.QueryNoStockImpl</implementation>
+        </component>
+	</public>
+	<private>
+	</private>
+</module>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/bs/ic/ic641"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="RevDel641Imp.java"
+   text-time="2019-08-23T03:30:41.522819Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="fdce02422954f45247b59458e1c12de2"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:41.507196Z"/>
+<entry
+   committed-rev="100"
+   name="RcvDlvOnhandBO.java"
+   text-time="2019-08-23T03:30:41.522819Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="e6c0101f98935dad430302f62bc1967e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:41.522819Z"/>
+</wc-entries>

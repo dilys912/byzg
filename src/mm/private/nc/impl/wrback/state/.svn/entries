@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="158"
+   name=""
+   committed-date="2019-08-23T05:34:39.053269Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/private/nc/impl/wrback/state"
+   last-author="zwx"
+   kind="dir"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="158"/>
+<entry
+   committed-rev="159"
+   name="WriteBackStateImpl.java"
+   text-time="2019-08-23T05:32:02.172978Z"
+   committed-date="2019-08-23T05:34:39.757398Z"
+   checksum="ad7000b8ffbd9e06256dc1ecb9337fa7"
+   last-author="zwx"
+   kind="file"
+   revision="159"/>
+</wc-entries>

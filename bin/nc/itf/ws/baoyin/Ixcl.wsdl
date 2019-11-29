@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions
+xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+xmlns:jaxws="http://java.sun.com/xml/ns/jaxws"
+jaxb:version="2.0"
+xmlns:ns0="http://baoyin.ws.itf.nc/Ixcl"
+targetNamespace="http://baoyin.ws.itf.nc/Ixcl">
+
+<jaxws:bindings>
+	<jaxws:package name="nc.itf.ws.baoyin"/>
+</jaxws:bindings>
+
+<wsdl:types>
+   <xsd:schema xmlns:ns="http://baoyin.ws.itf.nc/Ixcl"
+			attributeFormDefault="unqualified"
+			elementFormDefault="unqualified"
+			targetNamespace="http://baoyin.ws.itf.nc/Ixcl" jaxb:version="2.0">
+	<xsd:annotation>
+    	<xsd:appinfo>
+   			<jaxb:schemaBindings>
+    			<jaxb:package name="nc.itf.ws.baoyin"/>
+    		</jaxb:schemaBindings>
+   		</xsd:appinfo>
+   	</xsd:annotation>
+	<xsd:element name="sayXcl">
+         <xsd:complexType>
+            <xsd:sequence>
+				<xsd:element name="string"  minOccurs="0" nillable="true" type="xsd:string"/>
+				<xsd:element name="string1"  minOccurs="0" nillable="true" type="xsd:string"/>
+				<xsd:element name="string2"  minOccurs="0" nillable="true" type="xsd:string"/>
+             </xsd:sequence>  
+         </xsd:complexType>
+     </xsd:element>
+	<xsd:element name="sayXclResponse">
+         <xsd:complexType>
+            <xsd:sequence>
+				<xsd:element name="return"  minOccurs="0" nillable="true" type="xsd:string"/>
+             </xsd:sequence>  
+         </xsd:complexType>
+     </xsd:element>
+   </xsd:schema>
+</wsdl:types>
+    <wsdl:message name="sayXclRequest">
+        <wsdl:part name="parameters"  element="ns0:sayXcl"/>
+    </wsdl:message>
+    <wsdl:message name="sayXclResponse">
+        <wsdl:part name="parameters"  element="ns0:sayXclResponse"/>
+    </wsdl:message>
+
+    <wsdl:portType name="IxclPortType">
+        <wsdl:operation name="sayXcl">
+            <wsdl:input message="ns0:sayXclRequest" wsaw:Action="urn:sayXcl"/>
+            <wsdl:output message="ns0:sayXclResponse" wsaw:Action="urn:sayXclResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    
+    
+    <wsdl:binding name="IxclSOAP11Binding" type="ns0:IxclPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="sayXcl">
+            <soap:operation soapAction="urn:sayXcl" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="Ixcl">
+        <wsdl:port name="IxclSOAP11port_http" binding="ns0:IxclSOAP11Binding">
+            <soap:address location="http://localhost/uapws/service/Ixcl"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

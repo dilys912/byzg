@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   incomplete="true"
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/arap/client/nc/ui/ar/m20060301"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="308"/>
+<entry
+   committed-rev="100"
+   name="Ar20060302.java"
+   text-time="2019-08-23T03:31:00.380209Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="53b0abcdc8aae0fa8bf9327e7ee4220b"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:00.371187Z"
+   revision="153"/>
+<entry
+   name="UiManagerAr20060301.java"
+   kind="file"
+   deleted="true"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="Ar20060301.java"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+</wc-entries>

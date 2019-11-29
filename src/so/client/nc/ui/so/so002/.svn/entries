@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/so/client/nc/ui/so/so002"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="BankBatEditDlg.java"
+   text-time="2019-08-23T03:30:58.308671Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="1dde3326af2c8fab87319cf47a9d3467"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:57.134683Z"/>
+<entry
+   committed-rev="100"
+   name="SaleInvoiceUI.java"
+   text-time="2019-08-23T03:30:58.323732Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="83ec3f153ea1e20f6bc4ae4e0a674b33"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:57.693098Z"/>
+<entry
+   committed-rev="100"
+   name="BaoyinSaleInvoiceUI.java"
+   text-time="2019-08-23T03:30:58.323732Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="5994ce32e2f5870c95096d1bb68ed798"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:57.724124Z"/>
+<entry
+   committed-rev="100"
+   name="SaleInvoiceAdminUI.java"
+   text-time="2019-08-23T03:30:58.339373Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="f40c496575a0b3be964e9799f7072c65"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:58.277483Z"/>
+<entry
+   committed-rev="100"
+   name="BaoyinSaleInvoiceAdminUI.java"
+   text-time="2019-08-23T03:30:58.339373Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="7891e8551a425e906036e41095a4eae1"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:58.308671Z"/>
+</wc-entries>

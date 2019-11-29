@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/client/nc/ui/fa/fa20120301"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="GatherItemDlg.java"
+   text-time="2019-08-23T03:30:33.009198Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="46a72ca6d6db5efef94d4aa0f59fa6ee"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.962317Z"/>
+<entry
+   committed-rev="100"
+   name="QryDLGModel.java"
+   text-time="2019-08-23T03:30:33.009198Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="5e96de8ad6ed214286abad968be680b2"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.962317Z"/>
+<entry
+   committed-rev="100"
+   name="Applet.java"
+   text-time="2019-08-23T03:30:33.009198Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="009d66a044fb1822595440332c315712"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.962317Z"/>
+<entry
+   committed-rev="100"
+   name="MutiCorpDlg.java"
+   text-time="2019-08-23T03:30:33.009198Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="dd8265a6364604aacf7cedffa2f74a75"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.977944Z"/>
+<entry
+   committed-rev="100"
+   name="GatherShow.java"
+   text-time="2019-08-23T03:30:33.024823Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a1887c2395b922db3df5b55067296074"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.977944Z"/>
+<entry
+   committed-rev="100"
+   name="QryPanel.java"
+   text-time="2019-08-23T03:30:33.024823Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="52604fdd55db9a03a6dcb44c38d39708"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.977944Z"/>
+<entry
+   committed-rev="100"
+   name="ClientUI.java"
+   text-time="2019-08-23T03:30:33.040451Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="76c5b0023e0dd3dd8a5ef03a1ee10084"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.993572Z"/>
+<entry
+   committed-rev="100"
+   name="FilterDlg.java"
+   text-time="2019-08-23T03:30:33.040451Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2f23fa38071facc34e4846143309f100"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.993572Z"/>
+<entry
+   committed-rev="100"
+   name="INewCard.java"
+   text-time="2019-08-23T03:30:33.040451Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a18db07223dd751a5a0f8d1e3facf7d0"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.993572Z"/>
+<entry
+   committed-rev="100"
+   name="GatherItemPane.java"
+   text-time="2019-08-23T03:30:33.040451Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="7cb783c6fd41e229c55febb11cafb1aa"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.993572Z"/>
+</wc-entries>

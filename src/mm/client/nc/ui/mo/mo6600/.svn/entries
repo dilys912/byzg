@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="152"
+   name=""
+   committed-date="2019-08-23T03:07:25.941995Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/client/nc/ui/mo/mo6600"
+   last-author="zy"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="AbstractMyDelegator.java"
+   text-time="2019-08-23T03:30:31.508949Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="0aa278bc558b83017a3941295c097e49"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.383934Z"/>
+<entry
+   committed-rev="104"
+   name="IButton.java"
+   text-time="2019-08-23T03:30:31.508949Z"
+   committed-date="2019-08-07T08:08:21.534925Z"
+   checksum="1d299f3e23a8386bf3f66162c2f9e78e"
+   last-author="lxb"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.383934Z"/>
+<entry
+   committed-rev="221"
+   name="MyEventHandler.java"
+   text-time="2019-08-26T03:50:45.038216Z"
+   committed-date="2019-09-17T01:40:09.947390Z"
+   checksum="893310189b52666bf8002d67665effcc"
+   last-author="zwx"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.431132Z"
+   revision="221"/>
+<entry
+   committed-rev="220"
+   name="mo6600.java"
+   text-time="2019-09-03T03:46:07.492444Z"
+   committed-date="2019-09-17T01:39:45.752650Z"
+   checksum="0d003498657d3baddfb2a7401cc98997"
+   last-author="zwx"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.477737Z"
+   revision="220"/>
+<entry
+   committed-rev="100"
+   name="mo6600CheckRuleGetter.java"
+   text-time="2019-08-23T03:30:31.524574Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="d118d26b9c9d88cc4d00bed0ef2c537c"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.477737Z"/>
+<entry
+   committed-rev="100"
+   name="AbstractMyEventHandler.java"
+   text-time="2019-08-23T03:30:31.524574Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="8d4519199be56e3468329f057f36717d"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.477737Z"/>
+<entry
+   committed-rev="100"
+   name="Abstractmo6600.java"
+   text-time="2019-08-23T03:30:31.541473Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="82572ee048359ac7eac17e11ce7d39d6"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.493925Z"/>
+<entry
+   committed-rev="100"
+   name="MyDelegator.java"
+   text-time="2019-08-23T03:30:31.547490Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="9edeaed0f426ed799c03d5feaee6e14e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.493925Z"/>
+<entry
+   committed-rev="104"
+   name="mo6600Ctrl.java"
+   text-time="2019-08-23T03:30:31.552502Z"
+   committed-date="2019-08-07T08:08:21.534925Z"
+   checksum="1fef5f905c2c21fe19883242d390474d"
+   last-author="lxb"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.493925Z"/>
+<entry
+   committed-rev="100"
+   name="mo6600CheckRule.java"
+   text-time="2019-08-23T03:30:31.557683Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="4c1d8a335917f0ba6947bbca6e52871b"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.493925Z"/>
+</wc-entries>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/ic/private/nc/bs/ic/alert"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="SendxmlAlert.java"
+   text-time="2019-08-23T03:30:16.103742Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="7f7a112c242ad8b9c52b9e98d3eba093"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:16.088115Z"/>
+<entry
+   committed-rev="100"
+   name="DownLoadRARAlert.java"
+   text-time="2019-08-23T03:30:16.103742Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="ce53e47d102aef3622133a6133c6a79f"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:16.088115Z"/>
+<entry
+   committed-rev="100"
+   name="WarningAlert.java"
+   text-time="2019-08-23T03:30:16.119368Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="4a4ca258e3e90d834e765b9e417f6088"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:16.088115Z"/>
+<entry
+   committed-rev="100"
+   name="FtpUpfile.java"
+   text-time="2019-08-23T03:30:16.119368Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="425153859d9129bf08e5ece6bd746c04"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:16.103742Z"/>
+</wc-entries>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/public/nc/vo/by/invapp/pub"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="StateMachine.java"
+   text-time="2019-08-23T03:31:13.024772Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="17fb02998161d8cda2c99054379d0fde"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.993519Z"/>
+<entry
+   committed-rev="100"
+   name="StateVO.java"
+   text-time="2019-08-23T03:31:13.024772Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="973fa67ab5fef0f1b075304c4714f50e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.993519Z"/>
+<entry
+   name="Toolkits"
+   kind="dir"/>
+<entry
+   committed-rev="100"
+   name="IBYBillType.java"
+   text-time="2019-08-23T03:31:13.040399Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="398991c755a51ae5aa9d826365175189"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.993519Z"/>
+<entry
+   committed-rev="100"
+   name="IBYBillStatus.java"
+   text-time="2019-08-23T03:31:13.040399Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="5ea50ff78be44f95df8e1e0d0da009bf"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:13.024772Z"/>
+<entry
+   committed-rev="100"
+   name="IBYConst.java"
+   text-time="2019-08-23T03:31:13.040399Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="4a1b97bf1933214bc0550f34c23cfc84"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:13.024772Z"/>
+</wc-entries>

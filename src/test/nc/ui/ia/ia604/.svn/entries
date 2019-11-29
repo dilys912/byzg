@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/ui/ia/ia604"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="InOutSumClientUI.java"
+   text-time="2019-08-23T03:30:48.372921Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="9cbe0391006ea2d72b7531189c80c5ec"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:48.357294Z"/>
+<entry
+   committed-rev="100"
+   name="InOutSumQueryUI.java"
+   text-time="2019-08-23T03:30:48.388548Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="639d8a06208be400b16e1a82e36fbc0b"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:48.372921Z"/>
+</wc-entries>

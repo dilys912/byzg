@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/bs/ia/reportalgo"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="BeginReportAlgo.java"
+   text-time="2019-08-23T03:30:41.291042Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="1c692396fb5b1baf065f68191e6a112d"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:41.212303Z"/>
+<entry
+   committed-rev="100"
+   name="SumReportAlgo.java"
+   text-time="2019-08-23T03:30:41.291042Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a614e5525c9382c1bfdb2c55fdde63ca"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:41.227975Z"/>
+<entry
+   committed-rev="100"
+   name="ReportDataAccessUtil.java"
+   text-time="2019-08-23T03:30:41.306051Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="f5cf71fdd50e0def9d2803e4ea938f5f"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:41.227975Z"/>
+<entry
+   committed-rev="100"
+   name="InBillReportAlgo.java"
+   text-time="2019-08-23T03:30:41.306051Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="23b90dee8ed5c23015af0662c1b63109"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:41.259173Z"/>
+<entry
+   committed-rev="100"
+   name="OutBillReportAlgo.java"
+   text-time="2019-08-23T03:30:41.324107Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="257bb588d1f76cc5056646f760cb8506"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:41.291042Z"/>
+</wc-entries>

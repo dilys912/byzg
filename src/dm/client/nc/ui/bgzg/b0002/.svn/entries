@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/dm/client/nc/ui/bgzg/b0002"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="ClientCtrl.java"
+   text-time="2019-08-23T03:30:28.169277Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="d9aaee8775fa93100d0eb1d7f0116b32"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:28.091099Z"/>
+<entry
+   committed-rev="100"
+   name="ClientEH.java"
+   text-time="2019-08-23T03:30:28.184854Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="15a0d340d756bd370a1643625bf479a9"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:28.138428Z"/>
+<entry
+   committed-rev="100"
+   name="ClientUI.java"
+   text-time="2019-08-23T03:30:28.184854Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="72c2088511d1be59c655b28ee75f1be0"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:28.153601Z"/>
+</wc-entries>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/dm/public/nc/vo/bgzg/b0003"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="MyBillVO.java"
+   text-time="2019-08-23T03:30:28.516244Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="8d7e9e0ee301a925fdd5a70fddb0f50f"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:28.516244Z"/>
+<entry
+   committed-rev="100"
+   name="GZHGZVO.java"
+   text-time="2019-08-23T03:30:28.531870Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="33c670dfa5a4fff77814c7b069026fb3"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:28.516244Z"/>
+</wc-entries>

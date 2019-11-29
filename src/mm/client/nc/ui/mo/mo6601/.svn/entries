@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="111"
+   name=""
+   committed-date="2019-08-19T03:38:25.506964Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/client/nc/ui/mo/mo6601"
+   last-author="zy"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="258"
+   name="RefGlModel.java"
+   text-time="2019-09-29T08:57:50.058295Z"
+   committed-date="2019-09-30T05:09:18.185321Z"
+   checksum="3fe06414808207bcfbb7e8d8600656b2"
+   last-author="zwx"
+   kind="file"
+   prop-time="2019-09-29T01:44:34.737886Z"
+   revision="258"/>
+<entry
+   committed-rev="100"
+   name="IButton.java"
+   text-time="2019-08-23T03:30:31.588986Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="63fb83f7eff0bb0c03c99386f2d8d06b"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.573309Z"/>
+<entry
+   committed-rev="258"
+   name="mo6601EventHandler.java"
+   text-time="2019-09-29T09:08:37.452438Z"
+   committed-date="2019-09-30T05:09:18.185321Z"
+   checksum="d9c78f0d841e542bbb1184cdeeca802f"
+   last-author="zwx"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.573309Z"
+   revision="258"/>
+<entry
+   committed-rev="248"
+   name="ClientUI.java"
+   text-time="2019-09-23T13:39:57.829481Z"
+   committed-date="2019-09-29T01:45:11.997537Z"
+   checksum="45c99d93261ba5ffa794b67872b70ccb"
+   last-author="zwx"
+   kind="file"
+   prop-time="2019-09-05T08:48:35.851019Z"
+   revision="248"/>
+<entry
+   committed-rev="100"
+   name="mo6601Ctrl.java"
+   text-time="2019-08-23T03:30:31.604563Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="ee163715646de0abfa6da34c2c995e9e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.588986Z"/>
+</wc-entries>

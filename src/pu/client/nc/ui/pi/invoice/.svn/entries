@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="143"
+   name=""
+   committed-date="2019-08-21T09:06:40.786012Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/pu/client/nc/ui/pi/invoice"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="168"/>
+<entry
+   committed-rev="100"
+   name="BankBatEditDlg.java"
+   text-time="2019-08-23T03:31:09.244579Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="16b823f26776492d0931dae591c3f629"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:08.287480Z"/>
+<entry
+   committed-rev="142"
+   name="OnQueryAction.java"
+   text-time="2019-08-23T03:31:09.244579Z"
+   committed-date="2019-08-21T08:59:54.640533Z"
+   checksum="d187771eb8b405e3fb5bef2c1cbf5312"
+   last-author="gt"
+   kind="file"
+   prop-time="2019-08-23T03:31:08.287480Z"/>
+<entry
+   committed-rev="100"
+   name="InvFrmStoUI1.java"
+   text-time="2019-08-23T03:31:09.244579Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2615529cbe58dcd6a348ee5fa8767ef3"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:08.366220Z"/>
+<entry
+   committed-rev="100"
+   name="InvFrmStoQueDlg.java"
+   text-time="2019-08-23T03:31:09.260254Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="524b78e9aebd28b27e16f2d66686a593"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:08.396825Z"/>
+<entry
+   committed-rev="143"
+   name="InvoiceUI.java"
+   text-time="2019-08-23T03:31:09.260254Z"
+   committed-date="2019-08-21T09:06:40.786012Z"
+   checksum="cd09b6ad420a557dc5bad20a506ab29a"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:09.198339Z"/>
+<entry
+   committed-rev="143"
+   name="BaoyinInvoiceUI.java"
+   text-time="2019-08-23T03:31:09.275833Z"
+   committed-date="2019-08-21T09:06:40.786012Z"
+   checksum="76082338761ba3157e494296717b7f33"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:09.228989Z"/>
+</wc-entries>

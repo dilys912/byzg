@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/so/private/nc/impl/scm/so/pub"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="CheckStatusDMO.java"
+   text-time="2019-08-23T03:30:55.312982Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="d27fea3be5d6d96ae04f420be3a7003b"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.251103Z"/>
+<entry
+   committed-rev="100"
+   name="ParallelCheckDMO.java"
+   text-time="2019-08-23T03:30:55.312982Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2194ac514b8879fa7b669c25c81a7e5d"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.297352Z"/>
+</wc-entries>

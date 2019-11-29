@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/ic/public/nc/vo/ic/pub"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="KyjkBVO.java"
+   text-time="2019-08-23T03:30:21.575575Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="b4928771c4d45f0d43cdd15f9093d69b"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.528696Z"/>
+<entry
+   committed-rev="100"
+   name="AggCpdl.java"
+   text-time="2019-08-23T03:30:21.591202Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2f16c2e71a048da51eea021ede7619af"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.528696Z"/>
+<entry
+   committed-rev="100"
+   name="FJJKHVO.java"
+   text-time="2019-08-23T03:30:21.591202Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="3205d6f8971247573db4da439b0bc9dd"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.528696Z"/>
+<entry
+   committed-rev="100"
+   name="LPWSJKBVO.java"
+   text-time="2019-08-23T03:30:21.591202Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="9970e300a954085181c39749802536ca"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.528696Z"/>
+<entry
+   committed-rev="100"
+   name="AggKy.java"
+   text-time="2019-08-23T03:30:21.606829Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="c303c9ba068c56796d45323c7a221314"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.528696Z"/>
+<entry
+   committed-rev="100"
+   name="AggLPWS.java"
+   text-time="2019-08-23T03:30:21.606829Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="e44d01086384d9d205246d2c671293c5"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.544322Z"/>
+<entry
+   committed-rev="100"
+   name="LPWSJKHVO.java"
+   text-time="2019-08-23T03:30:21.606829Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="eb7b9e410c4c116d67dd051c933471f5"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.544322Z"/>
+<entry
+   committed-rev="100"
+   name="FJJKBVO.java"
+   text-time="2019-08-23T03:30:21.622455Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="c69f126fd5c27f5edf85ba0468b5b36c"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.544322Z"/>
+<entry
+   committed-rev="100"
+   name="CpdljkVO.java"
+   text-time="2019-08-23T03:30:21.622455Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="74a1b01e9331a6917a94a96059738050"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.544322Z"/>
+<entry
+   committed-rev="100"
+   name="KyjkVO.java"
+   text-time="2019-08-23T03:30:21.622455Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2315166db5b7f90e7fd9a09cd04561b1"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.544322Z"/>
+<entry
+   name="lot"
+   kind="dir"/>
+<entry
+   committed-rev="100"
+   name="AggFJ.java"
+   text-time="2019-08-23T03:30:21.622455Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="8cdf7ff3636903c5887f76525bf84d09"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.559949Z"/>
+<entry
+   committed-rev="100"
+   name="CpdljkBVO.java"
+   text-time="2019-08-23T03:30:21.638082Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="ed2585e2dab9114d7ba46cfaf3b491fd"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.559949Z"/>
+</wc-entries>

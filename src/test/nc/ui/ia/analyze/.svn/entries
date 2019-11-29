@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/ui/ia/analyze"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="IAAnalyzePrintDataSource.java"
+   text-time="2019-08-23T03:30:48.326042Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="6053a7028ba836a9d2a51eaa7e7b18c0"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:48.310414Z"/>
+<entry
+   committed-rev="100"
+   name="IaAnalyseBO_Client.java"
+   text-time="2019-08-23T03:30:48.341668Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="913618eea88f82e5b19ade668d52cec5"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:48.310414Z"/>
+<entry
+   committed-rev="100"
+   name="FormatDialog.java"
+   text-time="2019-08-23T03:30:48.341668Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="31feb12cb576f8396411f8bab945b657"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:48.310414Z"/>
+<entry
+   committed-rev="100"
+   name="IaAnalyzeClientUI.java"
+   text-time="2019-08-23T03:30:48.341668Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="3d8dcedc8105ba31f0e0edcad464adcf"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:48.326042Z"/>
+</wc-entries>

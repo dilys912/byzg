@@ -1,0 +1,428 @@
+package nc.ui.pi.invoice;
+
+import java.awt.Component;
+import java.awt.Dimension;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.swing.ListSelectionModel;
+
+import org.apache.commons.lang.StringUtils;
+
+
+import nc.bs.framework.common.NCLocator;
+import nc.itf.uap.IUAPQueryBS;
+import nc.jdbc.framework.processor.MapListProcessor;
+
+
+import nc.bs.framework.common.NCLocator;
+import nc.itf.uap.IUAPQueryBS;
+import nc.jdbc.framework.processor.BeanListProcessor;
+import nc.jdbc.framework.processor.ColumnListProcessor;
+import nc.jdbc.framework.processor.MapListProcessor;
+
+import nc.ui.bd.b45.CalbodyBO_Client;
+import nc.ui.common.FormularExecutor;
+import nc.ui.common.PublicUtil;
+import nc.ui.common.util.Util;
+import nc.ui.ia.bill.BillBO_Client;
+import nc.ui.ia.pub.IAEnvironment;
+import nc.ui.ic.ic212.TestConn;
+import nc.ui.ic.ic601.IC601InvOnHandHelper;
+import nc.ui.ic.isolation.IsolationQueryConditionDlg;
+import nc.ui.ic.isolation.ShowResult;
+import nc.ui.pub.ButtonObject;
+import nc.ui.pub.ClientEnvironment;
+import nc.ui.pub.beans.MessageDialog;
+import nc.ui.pub.beans.UIDialog;
+import nc.ui.pub.bill.BillCardPanel;
+import nc.ui.pub.bill.BillEditEvent;
+import nc.ui.pub.bill.BillItem;
+import nc.ui.pub.bill.BillScrollPane.BillTable;
+import nc.ui.pub.pf.PfUtilClient;
+import nc.ui.pub.print.datastruct.TemplateInfo;
+import nc.ui.sm.login.ShowDialog;
+import nc.ui.trade.business.HYPubBO_Client;
+import nc.utils.modify.is.IdetermineService;
+import nc.vo.bd.b45.CalbodyVO;
+import nc.vo.ia.bill.BillHeaderVO;
+import nc.vo.ia.bill.BillItemVO;
+import nc.vo.ia.bill.BillVO;
+import nc.vo.ia.pub.ConstVO;
+import nc.vo.ic.ic601.InvOnHandVO;
+import nc.vo.ic.pub.bill.QryConditionVO;
+import nc.vo.ic.pub.check.CHECKVO;
+import nc.vo.pi.InvoiceHeaderVO;
+import nc.vo.pi.InvoiceItemVO;
+import nc.vo.pi.InvoiceVO;
+import nc.vo.pub.AggregatedValueObject;
+import nc.vo.pub.BusinessException;
+import nc.vo.pub.lang.UFBoolean;
+import nc.vo.pub.lang.UFDate;
+import nc.vo.pub.lang.UFDouble;
+import nc.vo.scm.pub.session.ClientLink;
+
+public class BaoyinInvoiceUI extends InvoiceUI {
+
+	
+	public void onButtonClicked(ButtonObject btn)
+	{
+		super.onButtonClicked(btn);
+		int count = getComponentCount();
+		
+		
+		if("核销记录".equals(btn.getName())){
+			
+			try {
+				 Component comp = getComponent(0);
+				InvBillPanel cardPanel = (InvBillPanel)comp;
+				BillCardPanel panel = (BillCardPanel)getComponent(0);
+				InvoiceVO invoiceVo = new InvoiceVO();
+//				//获取发票ID
+//				Object cinvoiceid = cardPanel.getHeadItem("cinvoiceid").getValueObject();
+//				System.out.println("cinvoiceid："+cinvoiceid);
+				//发票号
+				Object vinvoicecode = cardPanel.getHeadItem("vinvoicecode").getValueObject();;
+				List<CHECKVO> checkvo =new ArrayList();
+		
+				StringBuffer sql = new StringBuffer();
+				//通过采购发票ID查询核销记录表
+				sql.append("select 	vinvoicecode, vordercode,yfmoney,hxmoney,yfbalance from po_check where vinvoicecode ='"+vinvoicecode+"' ORDER BY TS  desc, CINVOICEID desc");
+				IUAPQueryBS  uap = (IUAPQueryBS) NCLocator.getInstance().lookup(IUAPQueryBS.class.getName());
+				checkvo = (List<CHECKVO>) uap.executeQuery(sql.toString(), new BeanListProcessor(CHECKVO.class));
+				if(checkvo==null||checkvo.size()==0){
+					{MessageDialog.showHintDlg(null, "核销记录", "未查询到当前的核销记录");
+					}		
+				
+					}else{
+						OnQueryAction dialogs= new OnQueryAction(panel,checkvo);
+						dialogs.show();					
+//						showWarningMessage("核销记录");
+					}
+				} catch (BusinessException e) {				
+				e.printStackTrace();
+			}
+//			IsolationQueryConditionDlg dlg = new IsolationQueryConditionDlg();
+//			 
+//			InvOnHandVO result = dlg.doQuery();
+//			
+			
+			}
+		
+				
+		
+		if("批改".equals(btn.getName()) || "传存货".equals(btn.getName()) || "取消传存货".equals(btn.getName()) && count>0)
+		{
+			Component comp = getComponent(0);//只有一个Component,卡片或者列表
+			if(comp instanceof InvBillPanel)//卡片下
+			{
+//				btn.setDisplayHotkey("CTRL+G");
+				InvBillPanel cardPanel = (InvBillPanel)comp;
+				boolean enable = cardPanel.getHeadItem("vinvoicecode").isEnabled();
+				if(enable)
+				{
+					if("批改".equals(btn.getName()))
+					try {
+//						btn.setDisplayHotkey("CTRL+G");
+						InvoiceItemVO selVo = null;
+						int selRow = cardPanel.getBillTable().getSelectedRow();
+						if(selRow<0)
+						{
+							MessageDialog.showHintDlg(null, "请选择行", "请选择行");
+							return;
+						}
+						InvoiceItemVO selVos[] = (InvoiceItemVO[])cardPanel.getBillModel().getBodyValueVOs(InvoiceItemVO.class.getName());
+						if(selVos == null || selVos.length < 2)
+						{
+							MessageDialog.showHintDlg(null, "提示", "至少2行记录以上才能操作");
+							return;
+						}
+						selVo = selVos[selRow];
+						String resNo = selVo.getVdef1();//资源号
+						if(resNo == null || resNo.equals("")) 
+						{
+							MessageDialog.showHintDlg(null, "提示", "所选择行资源号为空");
+							return;
+						}
+						showHintMessage("");
+				    	BillCardPanel panel = (BillCardPanel)getComponent(0);
+				    	BillTable table = (BillTable)panel.getBillTable();
+						UFDouble noriginalcurprice = selVo.getNoriginalcurprice();
+						int j = 0;
+						for (int i = 0; i < selVos.length; i++) {
+							if(resNo.equals(selVos[i].getVdef1()))
+							{
+								if(j == 0) j++;
+								table.setRowSelectionInterval(i, i);
+				    			panel.getBillTable().scrollRectToVisible(table.getCellRect(i, 11, true));
+								cardPanel.getBillModel().setValueAt(noriginalcurprice, i, "noriginalcurprice");
+								BillItem bi = cardPanel.getBillModel().getItemByKey("noriginalcurprice");
+								afterEdit(new BillEditEvent(bi,noriginalcurprice,"noriginalcurprice",i,1));
+							}
+						}
+						if(j != 0)
+					    	showHintMessage("批改完成");
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+				}else 
+				{
+					InvoiceVO invoiceVo = (InvoiceVO)cardPanel.getBillValueVO(InvoiceVO.class.getName(),InvoiceHeaderVO.class.getName(),InvoiceItemVO.class.getName());
+					String pkVo = invoiceVo.getHeadVO().getPrimaryKey();
+					if(pkVo == null || pkVo.equals("")) return;
+					transInv(invoiceVo,btn.getName());
+				}
+				
+			}else//列表下
+			{
+				InvListPanel listPanel = (InvListPanel)comp;
+				int selRows[] = listPanel.getHeadTable().getSelectedRows();
+				InvoiceHeaderVO[] headVos = (InvoiceHeaderVO[])listPanel.getHeadBillModel().getBodyValueVOs(InvoiceHeaderVO.class.getName());
+				InvoiceItemVO[] itemVos = (InvoiceItemVO[])listPanel.getBodyBillModel().getBodyValueVOs(InvoiceItemVO.class.getName());
+				if(selRows == null || selRows.length == 0 || headVos == null || headVos.length == 0 || itemVos == null || itemVos.length == 0 ) return;
+				InvoiceVO invoiceVo = new InvoiceVO();
+				invoiceVo.setParentVO(headVos[selRows[0]]);
+				invoiceVo.setChildrenVO(itemVos);
+				transInv(invoiceVo,btn.getName());
+			}
+		}
+		/*
+		 * 2019-07-29
+		 * 刘信彬
+		 */
+		//获取公司是否是国内的结果
+	    IdetermineService idetermineService =(IdetermineService) NCLocator.getInstance().lookup(IdetermineService.class.getName());
+	    Component comp = getComponent(0);
+	    InvBillPanel cardPanel = (InvBillPanel)comp;
+	    String corp=cardPanel.getHeadItem("pk_corp").getValue();
+	    System.out.println("公司："+corp);
+	    Boolean result = idetermineService.check(corp);
+		
+	    
+	    
+	    
+	    
+	    
+	    if(result){
+	    	if("修改".equals(btn.getName())){//库存采购入库单下拉入的单据，点击修改按钮
+				cardPanelVoluation();
+			}/*else if(btn.getName().equals("库存采购入库单")){
+				listPanelVoluation();
+				
+			}*/
+			else if(btn.getName().equals("查询")){
+					cardPanelVoluation();
+					
+			}
+	    }
+		 
+	
+	}
+	/**
+	 * 查询源头 是否预付款 的值  2019-07-29
+	 * @param st
+	 * @return
+	 * @author 刘信彬
+	 */
+	private boolean findIsPay(String st){
+		StringBuffer sql=new StringBuffer();
+		sql.append(" select distinct vdef17 ") 
+		.append("           from po_order  ") 
+		.append("          where corderid in ('"+st+"') ") 
+		.append("            and pk_corp = '"+Util.getCorp()+"'   ") 
+		.append("            and nvl(dr, 0) = 0 "); 
+		
+		IUAPQueryBS query = (IUAPQueryBS) NCLocator.getInstance().lookup(IUAPQueryBS.class.getName());
+		  ColumnListProcessor alp = new ColumnListProcessor();//获取需要的字段
+		  ArrayList IsPay = null;
+		  try {
+			  IsPay = (ArrayList) query.executeQuery(sql.toString(), alp);
+		  } catch (Exception e2) {
+		   // TODO: handle exception
+		   e2.printStackTrace();
+		  }
+		  
+		  for(int j=0;j<IsPay.size();j++){
+			  if("Y".equals(IsPay.get(j))){
+				 return true;
+			  }
+		  }
+	
+		return false;
+	}
+	/**
+	 * @author 刘信彬 2019-07-30
+	 * 卡片界面下进行字段 是否预付款 赋值
+	 */
+	private void cardPanelVoluation(){
+		Component comp = getComponent(0);
+		InvBillPanel cardPanel = (InvBillPanel)comp;
+		//获得子表的数据
+		InvoiceItemVO selVos[] = (InvoiceItemVO[])cardPanel.getBillModel().getBodyValueVOs(InvoiceItemVO.class.getName());
+		//将子表中的订单ID放入到list集合中
+		List<String> list=new ArrayList<String>();
+		
+		for (int i = 0; i < selVos.length; i++) {
+			String corderid =selVos[i].getCorderid(); 
+			if(!list.contains(corderid)){
+				list.add(corderid);
+			}
+			
+		}
+		//将list集合转为数组并以","为间隔组成新的字符串
+		String str1=StringUtils.join(list.toArray(), ",");
+		boolean b=findIsPay(str1);
+			if(b==true){
+				cardPanel.setHeadItem("isPay", true);//将界面上的 是否预付款 字段进行赋值
+			}else {
+				cardPanel.setHeadItem("isPay", false);
+			}
+		
+		
+	}
+	/**
+	 * @author 刘信彬 2019-07-30
+	 * 列表界面下进行字段 是否预付款 赋值
+	 */
+	/*private void listPanelVoluation(){
+		
+		Component comp = getComponent(0);
+		InvListPanel listPanel = (InvListPanel)comp;
+		InvoiceItemVO[] itemVos = (InvoiceItemVO[])listPanel.getBodyBillModel().getBodyValueVOs(InvoiceItemVO.class.getName());
+		List<String> list=new ArrayList<String>();
+
+		for (int i = 0; i < itemVos.length; i++) {
+			String corderid =itemVos[i].getCorderid(); 
+			if(!list.contains(corderid)){
+				list.add(corderid);
+			}
+			
+		}
+		
+		String str1=StringUtils.join(list.toArray(), ",");
+		Map<Integer,Boolean> map=findIsPay(str1);
+		for(Map.Entry<Integer, Boolean> entry:map.entrySet()){
+			if(entry.getValue()==true){
+				listPanel.getHeadBillModel().setValueAt(true, entry.getKey(), "isPay");//将界面上的 是否预付款 字段进行赋值
+			}else{
+				listPanel.getHeadBillModel().setValueAt(false, entry.getKey(), "isPay");
+			}
+			
+		}
+		
+	
+	}*/
+	
+	
+	
+
+	private void transInv(InvoiceVO invoiceVo, String name) {
+		
+		try {
+			String invoicePK = invoiceVo.getPrimaryKey();
+			if(invoicePK == null)
+				return;
+			BillVO billVo = getDestVO(invoicePK);
+			if("传存货".equals(name))
+			{
+				if(billVo != null)
+				{
+					MessageDialog.showWarningDlg(null, null, "已存在如下目的单据"+(String)billVo.getParentVO().getAttributeValue("vbillcode"));					
+					return;
+				}
+				IAEnvironment iaenv = new IAEnvironment();
+				BillVO i9vo = new BillVO();
+				BillHeaderVO headVo = new BillHeaderVO();
+				InvoiceItemVO[] invoiceBVos = invoiceVo.getBodyVO();
+				BillItemVO itemVos [] = new BillItemVO[invoiceBVos.length];
+				i9vo.setParentVO(headVo);
+				i9vo.setChildrenVO(itemVos);
+				headVo.setCbilltypecode("I9");
+				headVo.setPk_corp(Util.getCorp());
+				headVo.setFdispatchflag(0);//收发标志
+				headVo.setDbilldate(new UFDate(Util.getLoginDate()));
+				headVo.setCsourcemodulename(ConstVO.m_sModulePO);
+				CalbodyVO[] calbodyVOs = CalbodyBO_Client.queryByCondition(Util.getCorp(), null);
+				headVo.setCrdcenterid(calbodyVOs!=null && calbodyVOs.length>0 ? calbodyVOs[0].getPk_calbody() : null);//成本库存组织
+				ArrayList voList = new ArrayList();
+				for (int i = 0; i < invoiceBVos.length; i++) {
+					itemVos[i] = new BillItemVO();
+					itemVos[i].setCbilltypecode("I9");
+					itemVos[i].setFpricemodeflag(0);//计价方式编码
+					itemVos[i].setCsourcebilltypecode("25");
+					itemVos[i].setCsourcebillid(invoicePK);
+					itemVos[i].setCsourcebillitemid(invoiceBVos[i].getPrimaryKey());
+					if(invoiceBVos[i].getPKDefDoc2() == null || invoiceBVos[i].getPKDefDoc2().length() == 0)
+						continue;
+					if(!invInMaintainList(invoiceBVos[i].getPKDefDoc2()))
+						continue;
+					itemVos[i].setCinventoryid(invoiceBVos[i].getPKDefDoc2());
+					itemVos[i].setNmoney(invoiceBVos[i].getNoriginalsummny());
+					itemVos[i].setVsourcebillcode(invoiceVo.getHeadVO().getVinvoicecode());
+					voList.add(itemVos[i]);
+				}
+				BillItemVO[] destVos = (BillItemVO[])voList.toArray(new BillItemVO[voList.size()]);
+				if(destVos == null || destVos.length == 0)
+					throw new Exception("无物料信息或物料未定义存货分类,无法生成调整单");
+				i9vo.setChildrenVO(destVos);
+				i9vo = BillBO_Client.insert(iaenv.getClientLink(), i9vo);
+				MessageDialog.showHintDlg(null, null, "生成目的单据"+(String)i9vo.getParentVO().getAttributeValue("vbillcode"));
+			}
+			else if("取消传存货".equals(name))
+			{
+				if(billVo != null)
+				{
+					IAEnvironment ia = new IAEnvironment();
+					nc.vo.scm.pub.session.ClientLink cl = ia.getClientLink();
+					BillVO[] vos = BillBO_Client.querybillWithOtherTable(new String[]{"ia_bill","ia_bill_b"}, new String[]{"ia_bill.cbillid=ia_bill_b.cbillid"}, new String[]{""}, null, null, null, new Boolean(false), cl);
+//					BillVO[] vos = (BillVO[])HYPubBO_Client.queryBillVOByCondition(new String[]{BillVO.class.getName(),BillHeaderVO.class.getName(),BillItemVO.class.getName()}, 
+//							" cbillid in (select cbillid from ia_bill_b where dr= 0 and csourcebillid ='"+invoicePK+"')");
+					BillBO_Client.delete(cl, vos[0], ia.getUser().getPrimaryKey(), "", "");
+				}else
+				{
+					throw new Exception("无下游单据");
+				}
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			MessageDialog.showWarningDlg(null, null, e.getMessage());
+		}
+	}
+
+	private boolean invInMaintainList(String defDoc2) {
+		if(defDoc2 == null || defDoc2 == null ) return false;
+		Object value = PublicUtil.getMapValue("select 1 from baoyin_invcl4adjbill where pk_invcl in (select pk_invcl from bd_invbasdoc where pk_invbasdoc = (select pk_invbasdoc from bd_invmandoc where pk_invmandoc = '"+defDoc2+"' and dr = 0) and dr = 0) and dr = 0");
+//		String value = FormularExecutor.execFormular("getColValue(baoyin_invcl4adjbill,pk_invcl,pk_invcl,getColValue(bd_invbasdoc, pk_invcl ,pk_invbasdoc ,getColValue(bd_invmandoc, pk_invbasdoc, pk_invmandoc, vdef2)))", defDoc2);
+		if(value != null)
+			return true;
+		return false;
+	}
+
+	/**
+	 * 取得目的单据VO
+	 * */
+	private BillVO getDestVO(String invoicePK) {
+		try {
+			ClientLink cl = new IAEnvironment().getClientLink();
+			String[] sConditions = new String[]{"(v.pk_corp= '"+Util.getCorp()+"')","(v.pk_corp = '"+Util.getCorp()+"' and v.cbilltypecode = 'I9' and v.csourcebillid = '"+invoicePK+"')"};
+			BillVO[] m_voBills = BillBO_Client.querybillWithOtherTable(null, null,
+					sConditions, null, null, null, new Boolean(false), cl);
+			if(m_voBills !=null && m_voBills.length >0 )
+			{
+				return m_voBills[0];
+			}
+		} catch (Exception e) {
+		}
+		return null;
+	}
+
+	@Override
+	public ButtonObject[] getExtendBtns() {
+		return super.getExtendBtns();
+	}
+
+	
+	
+}

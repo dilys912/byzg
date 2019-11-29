@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="265"
+   name=""
+   committed-date="2019-10-11T06:57:11.043647Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/private/nc/bs/uap/itfreceive"
+   last-author="zwx"
+   kind="dir"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="265"/>
+<entry
+   committed-rev="265"
+   name="MdmReceiveServlet.java"
+   text-time="2019-09-04T05:12:44.660724Z"
+   committed-date="2019-10-11T06:57:11.043647Z"
+   checksum="c40d8bd0cfedc27ca0934d25d346e87e"
+   last-author="zwx"
+   kind="file"/>
+<entry
+   committed-rev="265"
+   name="XbusReceiveServlet.java"
+   text-time="2019-10-11T06:56:16.603990Z"
+   committed-date="2019-10-11T06:57:11.043647Z"
+   checksum="ca2ba17b7d4ee59d64843f704ee97f31"
+   last-author="zwx"
+   kind="file"/>
+</wc-entries>

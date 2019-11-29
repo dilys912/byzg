@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/public/nc/vo/by/invapp/h0h004"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="FreezeVO.java"
+   text-time="2019-08-23T03:31:12.852664Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="79f88ad95420d146bb0785ef20ea8218"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.852664Z"/>
+<entry
+   committed-rev="100"
+   name="IchandnumImptempVO.java"
+   text-time="2019-08-23T03:31:12.868291Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="e426a976b4426a03f47efaedd068cc33"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.852664Z"/>
+<entry
+   committed-rev="100"
+   name="IchandnumVO.java"
+   text-time="2019-08-23T03:31:12.868291Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="d9f5c3f3a183c04ff55d949f416dddcf"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.852664Z"/>
+</wc-entries>

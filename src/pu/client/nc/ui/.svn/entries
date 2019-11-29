@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="168"
+   name=""
+   committed-date="2019-08-23T05:45:24.298749Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/pu/client/nc/ui"
+   last-author="VisualSVN Server"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="168"/>
+<entry
+   name="pr"
+   kind="dir"/>
+<entry
+   name="ps"
+   kind="dir"/>
+<entry
+   name="pu"
+   kind="dir"/>
+<entry
+   name="rc"
+   kind="dir"/>
+<entry
+   name="bd"
+   kind="dir"/>
+<entry
+   name="pf"
+   kind="dir"/>
+<entry
+   name="pi"
+   kind="dir"/>
+<entry
+   name="po"
+   kind="dir"/>
+</wc-entries>

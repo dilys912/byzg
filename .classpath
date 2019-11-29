@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="out/client" path="src/client"/>
+	<classpathentry kind="src" output="out/private" path="src/private"/>
+	<classpathentry kind="src" output="out/public" path="src/public"/>
+	<classpathentry kind="src" output="out/modules/arap/client/classes" path="src/arap/client"/>
+	<classpathentry kind="src" output="out/modules/baoyin/client/classes" path="src/baoyin/client"/>
+	<classpathentry kind="src" output="out/modules/baoyin/META-INF/classes" path="src/baoyin/private"/>
+	<classpathentry kind="src" output="out/modules/baoyin/classes" path="src/baoyin/public"/>
+	<classpathentry kind="src" output="out/modules/baofc/META-INF/classes" path="src/baofc/private"/>
+	<classpathentry kind="src" output="out/modules/dm/client/classes" path="src/dm/client"/>
+	<classpathentry kind="src" output="out/modules/dm/META-INF/classes" path="src/dm/private"/>
+	<classpathentry kind="src" output="out/modules/dm/classes" path="src/dm/public"/>
+	<classpathentry kind="src" output="out/modules/scmpub/classes" path="src/scmpub/public"/>
+	<classpathentry kind="src" output="out/modules/ia/client/classes" path="src/ia/client"/>
+	<classpathentry kind="src" output="out/modules/ic/client/classes" path="src/ic/client"/>
+	<classpathentry excluding="nc/bs/ic/pub/bill/GeneralBillDMO.java" kind="src" output="out/modules/ic/META-INF/classes" path="src/ic/private"/>
+	<classpathentry kind="src" output="out/modules/ic/classes" path="src/ic/public"/>
+	<classpathentry kind="src" output="out/ejb/modules/ic/META-INF" path="src/ic/ejb"/>
+	<classpathentry kind="src" output="out/modules/mm/client/classes" path="src/mm/client"/>
+	<classpathentry kind="src" output="out/modules/mm/META-INF/classes" path="src/mm/private"/>
+	<classpathentry kind="src" output="out/modules/mm/classes" path="src/mm/public"/>
+	<classpathentry kind="src" output="out/modules/pu/client/classes" path="src/pu/client"/>
+	<classpathentry kind="src" output="out/modules/pu/META-INF/classes" path="src/pu/private"/>
+	<classpathentry kind="src" output="out/modules/pu/classes" path="src/pu/public"/>
+	<classpathentry kind="src" output="out/modules/so/client/classes" path="src/so/client"/>
+	<classpathentry kind="src" output="out/modules/so/META-INF/classes" path="src/so/private"/>
+	<classpathentry kind="src" output="out/modules/so/classes" path="src/so/public"/>
+	<classpathentry kind="src" output="out/modules/uap/client/classes" path="src/uap/client"/>
+	<classpathentry kind="src" output="out/ejb/modules/uap/META-INF" path="src/uap/ejb"/>
+	<classpathentry kind="src" output="out/modules/uap/META-INF/classes" path="src/uap/private"/>
+	<classpathentry kind="src" output="out/modules/uap/classes" path="src/uap/public"/>
+	<classpathentry kind="src" output="out/modules/uapbd/client/classes" path="src/uapbd/client"/>
+	<classpathentry kind="src" output="out/modules/uapbd/classes" path="src/uapbd/public"/>
+	<classpathentry kind="src" output="NC_HOME/hotwebs/axis/WEB-INF/classes" path="src/webservice"/>
+	<classpathentry kind="src" output="out/gen" path="src/gen"/>
+	<classpathentry kind="src" output="out/test" path="src/test"/>
+	<classpathentry kind="src" path="src/arap/private"/>
+	<classpathentry kind="src" path="ws"/>
+	<classpathentry kind="src" path="src/uapqe/private"/>
+	<classpathentry kind="src" path="src/uapbd/private"/>
+	<classpathentry kind="src" path="src/so6/private"/>
+	<classpathentry kind="src" path="src/steelcu/client"/>
+	<classpathentry kind="src" path="src/ia/private"/>
+	<classpathentry kind="src" path="src/arap/public"/>
+	<classpathentry kind="src" path="src/sc/client"/>
+	<classpathentry kind="lib" path="lib/pubuapweb.jar"/>
+	<classpathentry kind="src" output="out/resources" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Ant_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Product_Common_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Middleware_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Framework_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Module_Public_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Module_Client_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Module_Private_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Module_Lang_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Generated_EJB"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

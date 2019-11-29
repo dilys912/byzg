@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="257"
+   name=""
+   committed-date="2019-09-30T03:33:44.546831Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/client/nc/ui/mo/hgz"
+   last-author="zy"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="258"/>
+<entry
+   committed-rev="218"
+   name="HgzOrderRefModel.java"
+   text-time="2019-09-16T10:33:11.752381Z"
+   committed-date="2019-09-16T10:42:54.789908Z"
+   checksum="050d700c7060bcc730b6d8af739659e0"
+   last-author="zwx"
+   kind="file"/>
+<entry
+   name="zxgl"
+   kind="dir"/>
+<entry
+   name="lpws"
+   kind="dir"/>
+<entry
+   committed-rev="251"
+   name="HgzHandler.java"
+   text-time="2019-09-30T05:39:17.896888Z"
+   committed-date="2019-09-30T03:06:45.470771Z"
+   checksum="2237bce7d628769e40b8009edc12a0f2"
+   last-author="zy"
+   kind="file"
+   prop-time="2019-09-30T05:39:17.883349Z"/>
+<entry
+   committed-rev="256"
+   name="HgzUI.java"
+   text-time="2019-09-30T05:39:17.910520Z"
+   committed-date="2019-09-30T03:25:47.313704Z"
+   checksum="e500f054170afd70f59e73214877a554"
+   last-author="zy"
+   kind="file"
+   prop-time="2019-09-30T05:39:17.886357Z"/>
+<entry
+   committed-rev="164"
+   name="JbarcodeUtil.java"
+   text-time="2019-08-22T13:45:15.026000Z"
+   committed-date="2019-08-23T05:38:09.292787Z"
+   checksum="3e4f4a2d71cbea41a7544a4b85b79546"
+   last-author="zwx"
+   kind="file"/>
+<entry
+   committed-rev="211"
+   name="ShowHandResult.java"
+   text-time="2019-09-05T13:15:27.531403Z"
+   committed-date="2019-09-09T06:38:08.694362Z"
+   checksum="3a4b514a60eafd84a931f6d415485b07"
+   last-author="zwx"
+   kind="file"/>
+<entry
+   committed-rev="229"
+   name="HgzController.java"
+   text-time="2019-09-30T05:39:17.945762Z"
+   committed-date="2019-09-20T03:44:29.528117Z"
+   checksum="e2119fcf60fedb60ba9d68073ea64a6c"
+   last-author="zy"
+   kind="file"
+   prop-time="2019-09-30T05:39:17.891371Z"/>
+</wc-entries>

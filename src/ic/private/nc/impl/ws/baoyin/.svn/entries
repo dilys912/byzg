@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/ic/private/nc/impl/ws/baoyin"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="SOService.java"
+   text-time="2019-08-23T03:30:11.587597Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="be76b95dd3bc0f40e821270ab2c8c49d"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.556344Z"/>
+<entry
+   committed-rev="100"
+   name="xcll.java"
+   text-time="2019-08-23T03:30:11.587597Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="6236ac3da28828f20008f92241956f73"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.556344Z"/>
+<entry
+   committed-rev="100"
+   name="TOService.java"
+   text-time="2019-08-23T03:30:11.587597Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="ba887da4d77ae6970bfa6a27f23180db"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.556344Z"/>
+<entry
+   committed-rev="100"
+   name="BDService.java"
+   text-time="2019-08-23T03:30:11.603224Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="7c5c151a1adbc53122e335ae41e2c2e0"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.571972Z"/>
+<entry
+   committed-rev="100"
+   name="PDAServiceExecutorImpl.java"
+   text-time="2019-08-23T03:30:11.603224Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="13834e30f695651f50c450113a44c059"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.571972Z"/>
+<entry
+   committed-rev="100"
+   name="BaseService.java"
+   text-time="2019-08-23T03:30:11.603224Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a84a5666e708eb7a560da09252db3b3f"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.571972Z"/>
+<entry
+   committed-rev="100"
+   name="MOService.java"
+   text-time="2019-08-23T03:30:11.618850Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="257965a8eabf8883d2b4512d6ab62a19"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.571972Z"/>
+</wc-entries>

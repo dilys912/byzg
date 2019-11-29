@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/dm/client/nc/ui/bgjs/bill"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="AbstractClientUI.java"
+   text-time="2019-08-23T03:30:27.714926Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="6a564850f7464794a9dc95d6fcf7d0bd"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:27.714926Z"/>
+<entry
+   committed-rev="100"
+   name="AbstractButtonCtrl.java"
+   text-time="2019-08-23T03:30:27.730553Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="6676419843a45cee5f6cda45198487e2"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:27.714926Z"/>
+</wc-entries>

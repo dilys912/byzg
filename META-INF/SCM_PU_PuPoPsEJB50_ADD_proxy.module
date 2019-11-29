@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="proxy">
+  <public>
+    <component name="nc.itf.ps.estimate.ejb" priority="0" singleton="true" remote="true" tx="CMT" supportAlias="true">
+      <interface>nc.itf.ps.estimate.IEstimate_yf</interface>
+      <interface>nc.itf.ps.estimate.IEstimate_saleyf</interface>
+      <interface>nc.itf.ps.estimate.IEstimate_wwyf</interface>
+      <interface>nc.itf.ps.estimate.IEstimate_ww</interface>
+      <interface>nc.itf.ps.settle.ISettle_yf</interface>
+      <implementation>nc.impl.ps.estimate.ejb</implementation>
+      <property name="iEstimate_yf">
+        <ref>IEstimate_yf</ref>
+      </property>
+      <property name="iEstimate_saleyf">
+        <ref>IEstimate_saleyf</ref>
+      </property>  
+      <property name="iEstimate_wwyf">
+        <ref>IEstimate_wwyf</ref>
+      </property>  
+      <property name="iEstimate_ww">
+        <ref>IEstimate_ww</ref>
+      </property>  
+      <property name="iSettle_yf">
+        <ref>ISettle_yf</ref>
+      </property>     
+    </component>
+  </public>
+  <private />
+</module>

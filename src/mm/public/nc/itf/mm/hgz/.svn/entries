@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="162"
+   name=""
+   committed-date="2019-08-23T05:36:15.525724Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/public/nc/itf/mm/hgz"
+   last-author="zwx"
+   kind="dir"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="162"/>
+<entry
+   committed-rev="163"
+   name="IPrintHgz.java"
+   text-time="2019-08-23T05:31:16.396048Z"
+   committed-date="2019-08-23T05:36:16.851946Z"
+   checksum="c61c45eadacce0de1b142a932567ab8c"
+   last-author="zwx"
+   kind="file"
+   revision="163"/>
+</wc-entries>

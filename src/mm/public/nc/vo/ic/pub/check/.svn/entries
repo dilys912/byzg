@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="142"
+   name=""
+   committed-date="2019-08-21T08:59:54.640533Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/public/nc/vo/ic/pub/check"
+   last-author="gt"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="142"
+   name="CHECKVO.java"
+   text-time="2019-08-23T03:30:32.166085Z"
+   committed-date="2019-08-21T08:59:54.640533Z"
+   checksum="af490cd4e6a620f114128c676381ad8b"
+   last-author="gt"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.056698Z"/>
+<entry
+   committed-rev="100"
+   name="VOCheck.java"
+   text-time="2019-08-23T03:30:32.166085Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="68963eea0f0d357f07f79fe44fc02c6a"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.150468Z"/>
+</wc-entries>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="142"
+   name=""
+   committed-date="2019-08-21T08:59:54.640533Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/public/nc/vo/mm/hgz/button"
+   last-author="gt"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="142"
+   name="IBHgzButton.java"
+   text-time="2019-08-23T03:30:32.009820Z"
+   committed-date="2019-08-21T08:59:54.640533Z"
+   checksum="88ce5b0d65acb66040f95414b21d3827"
+   last-author="gt"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.009820Z"/>
+<entry
+   committed-rev="142"
+   name="IBHgzZgButton.java"
+   text-time="2019-08-23T03:30:32.009820Z"
+   committed-date="2019-08-21T08:59:54.640533Z"
+   checksum="f854618be708305ed07d873649cbdfa2"
+   last-author="gt"
+   kind="file"
+   prop-time="2019-08-23T03:30:32.009820Z"/>
+</wc-entries>

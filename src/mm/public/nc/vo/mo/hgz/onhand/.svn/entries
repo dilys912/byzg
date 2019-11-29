@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="212"
+   name=""
+   committed-date="2019-09-09T06:39:32.709307Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/public/nc/vo/mo/hgz/onhand"
+   last-author="zwx"
+   kind="dir"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="212"/>
+<entry
+   committed-rev="213"
+   name="OnhandVO.java"
+   text-time="2019-09-05T13:22:48.715604Z"
+   committed-date="2019-09-09T06:39:33.556995Z"
+   checksum="fcc3e0f77efdee98dbbcc788425c4f55"
+   last-author="zwx"
+   kind="file"
+   revision="213"/>
+</wc-entries>

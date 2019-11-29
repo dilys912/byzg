@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/bs/pub/pf"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="IQueryData.java"
+   text-time="2019-08-23T03:30:40.337449Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="c7a754a57935f60427403c0a5d37f9b5"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:40.321822Z"/>
+<entry
+   committed-rev="100"
+   name="IQueryData2.java"
+   text-time="2019-08-23T03:30:40.337449Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="cda61ddfdf6a086945094383bccfc6e7"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:40.321822Z"/>
+</wc-entries>

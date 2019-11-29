@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="160"
+   name=""
+   committed-date="2019-08-23T05:34:54.183733Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/private/nc/impl/mm/hgz"
+   last-author="zwx"
+   kind="dir"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="160"/>
+<entry
+   committed-rev="161"
+   name="PringHgzImpl.java"
+   text-time="2019-08-23T05:30:30.591150Z"
+   committed-date="2019-08-23T05:34:54.723793Z"
+   checksum="3ec5fa70ef8114fb6cc52a5a1d8cc6be"
+   last-author="zwx"
+   kind="file"
+   revision="161"/>
+</wc-entries>

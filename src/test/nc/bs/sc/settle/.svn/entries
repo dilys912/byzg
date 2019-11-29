@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/bs/sc/settle"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="MaterialledgerImpl.java"
+   text-time="2019-08-23T03:30:44.228742Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="4461c7ea364dbd5f4666c67c196294a1"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:44.213113Z"/>
+<entry
+   committed-rev="100"
+   name="BalanceDMO.java"
+   text-time="2019-08-23T03:30:44.228742Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2d7af6601ab77b8c9f1f024fe525cf4e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:44.213113Z"/>
+</wc-entries>

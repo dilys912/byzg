@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/ic/client/nc/ui/ic/ic301"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="FcspdtbUI.java"
+   text-time="2019-08-23T03:30:16.852354Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a62f483f5f4f40d537eeb4641dfda1ef"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:16.394401Z"/>
+<entry
+   committed-rev="100"
+   name="ClientUI.java"
+   text-time="2019-08-23T03:30:16.852354Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="497337000ce918b9fbf8f8a90449344a"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:16.852354Z"/>
+</wc-entries>

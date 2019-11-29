@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<public>
+    <component priority="0" singleton="true" remote="true" tx="NONE" >
+      	<interface>nc.itf.uap.itfcheck.IInterfaceCheck</interface>
+		<implementation>nc.impl.uap.itfcheck.InterfaceCheckImpl</implementation>
+    </component>
+    <component name="XbusReceiveServlet"  singleton="false" remote="false" tx="NONE">
+    	<implementation>nc.bs.uap.itfreceive.XbusReceiveServlet</implementation>
+    </component>
+    <component name="MdmReceiveServlet" remote="false" singleton="false" tx="NONE">
+    	<implementation>nc.bs.uap.itfreceive.MdmReceiveServlet</implementation>
+    </component>
+  	</public>
+	<private>
+    <component name="IInterfaceCheck" priority="0" singleton="true" supportAlias="true">
+      <implementation>nc.impl.uap.itfcheck.InterfaceCheckImpl</implementation>
+    </component> 
+    <component name="ItfReceipt" priority="0" singleton="true" supportAlias="true">
+      <implementation>nc.impl.uap.itfback.ItfReceiptImpl</implementation>
+    </component> 
+  </private>
+</module>

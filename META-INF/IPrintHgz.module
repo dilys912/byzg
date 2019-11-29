@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<public>
+    <component priority="0" singleton="true" remote="true" tx="NONE" >
+      <interface>nc.itf.mm.hgz.IPrintHgz</interface>
+      <implementation>nc.impl.mm.hgz.PringHgzImpl</implementation>
+    </component>
+  </public>
+	<private>
+    <component name="IPrintHgz" priority="0" singleton="true" supportAlias="true">
+      <implementation>nc.impl.mm.hgz.PringHgzImpl</implementation>
+    </component> 
+  </private>
+</module>

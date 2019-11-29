@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="148"
+   name=""
+   committed-date="2019-08-22T06:27:27.472322Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/bs/scm"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   name="service"
+   kind="dir"/>
+<entry
+   name="pub"
+   kind="dir"/>
+</wc-entries>

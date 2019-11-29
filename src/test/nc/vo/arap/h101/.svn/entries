@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/vo/arap/h101"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="FksqdBVO.java"
+   text-time="2019-08-23T03:30:45.009573Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="45c67b4e68cf51f359b535bf3af7439c"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:44.993947Z"/>
+<entry
+   committed-rev="100"
+   name="AbstractBTOBDLG.java"
+   text-time="2019-08-23T03:30:45.025200Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="01809d8b1020551a28b4a4f573a16259"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:45.009573Z"/>
+<entry
+   committed-rev="100"
+   name="AbstractBTOBBillQueryDLG.java"
+   text-time="2019-08-23T03:30:45.025200Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="b518e7df5123ac2a517935ac6f557a18"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:45.009573Z"/>
+<entry
+   committed-rev="100"
+   name="FksqdVO.java"
+   text-time="2019-08-23T03:30:45.041172Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="cd49f85a962e890b5cdd53cde0a78175"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:45.009573Z"/>
+</wc-entries>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/so/private/nc/bs/so/saleinvoiceImpl"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="QuerySaleCVMImpl.java"
+   text-time="2019-08-23T03:30:55.406735Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="040c2828b525ad6a7d75e48ba242ae25"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.391108Z"/>
+<entry
+   committed-rev="100"
+   name="SaleSendCVMImpl.java"
+   text-time="2019-08-23T03:30:55.406735Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="751b29757b92bed859c3c4606bd501c0"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.391108Z"/>
+<entry
+   committed-rev="100"
+   name="CheckCycleToCVMImpl.java"
+   text-time="2019-08-23T03:30:55.422415Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="4cc3eda9d673a255ed3f3dfaa06b0042"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.406735Z"/>
+<entry
+   committed-rev="100"
+   name="SaleToSendCVMImpl.java"
+   text-time="2019-08-23T03:30:55.422415Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="e64c47185835a1aab48a16e9c48df760"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:55.406735Z"/>
+</wc-entries>

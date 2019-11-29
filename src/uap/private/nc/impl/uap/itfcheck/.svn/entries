@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="262"
+   name=""
+   committed-date="2019-10-11T05:23:13.577319Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/private/nc/impl/uap/itfcheck"
+   last-author="weny"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="262"/>
+<entry
+   committed-rev="266"
+   name="InterfaceCheckImpl.java"
+   text-time="2019-10-11T07:14:05.282632Z"
+   committed-date="2019-10-11T07:15:40.328117Z"
+   checksum="9933b09b772d5be77468bbea7c5e2e30"
+   last-author="zwx"
+   kind="file"
+   prop-time="2019-10-11T07:14:05.262542Z"
+   revision="266"/>
+<entry
+   committed-rev="261"
+   name="InterfaceCheckImpl.class"
+   text-time="2019-10-11T05:23:28.170067Z"
+   committed-date="2019-10-10T08:46:03.393543Z"
+   checksum="1ecd20bda3ac09b2ddfc6fa4e00a5ddc"
+   last-author="weny"
+   kind="file"
+   prop-time="2019-10-11T05:23:28.145044Z"/>
+<entry
+   committed-rev="261"
+   name="ReadItfConfigXml.java"
+   text-time="2019-10-11T05:23:28.175080Z"
+   committed-date="2019-10-10T08:46:03.393543Z"
+   checksum="a8f91ae8636dd2ea6cc6aaf63143f00a"
+   last-author="weny"
+   kind="file"
+   prop-time="2019-10-11T05:23:28.149018Z"/>
+<entry
+   committed-rev="262"
+   name="HttpRequest.java"
+   text-time="2019-10-11T05:23:28.181095Z"
+   committed-date="2019-10-11T05:23:13.577319Z"
+   checksum="b3c214a13a8ca62a2a47325d0f1600bf"
+   last-author="weny"
+   kind="file"
+   prop-time="2019-10-11T05:23:28.152018Z"/>
+<entry
+   committed-rev="261"
+   name="ReadItfConfigXml.class"
+   text-time="2019-10-11T05:23:28.187149Z"
+   committed-date="2019-10-10T08:46:03.393543Z"
+   checksum="5a79ee66f8162df67a54408b653a55c7"
+   last-author="weny"
+   kind="file"
+   prop-time="2019-10-11T05:23:28.155026Z"/>
+<entry
+   committed-rev="261"
+   name="HttpRequest.class"
+   text-time="2019-10-11T05:23:28.194131Z"
+   committed-date="2019-10-10T08:46:03.393543Z"
+   checksum="e5969f0e41215426091509a326caa326"
+   last-author="weny"
+   kind="file"
+   prop-time="2019-10-11T05:23:28.159071Z"/>
+</wc-entries>

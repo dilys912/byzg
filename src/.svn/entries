@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="153"
+   name=""
+   committed-date="2019-08-23T03:10:51.412242Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src"
+   last-author="zy"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   name="baoyin"
+   kind="dir"/>
+<entry
+   name="so"
+   kind="dir"/>
+<entry
+   name="arap"
+   kind="dir"/>
+<entry
+   name="pu"
+   kind="dir"/>
+<entry
+   name="uap"
+   kind="dir"/>
+<entry
+   name="mcw"
+   kind="dir"/>
+<entry
+   name="ia"
+   kind="dir"/>
+<entry
+   name="scmpub"
+   kind="dir"/>
+<entry
+   name="ic"
+   kind="dir"/>
+<entry
+   name="uapbd"
+   kind="dir"/>
+<entry
+   name="baosteel"
+   kind="dir"/>
+<entry
+   name="webservice"
+   kind="dir"/>
+<entry
+   name="dm"
+   kind="dir"/>
+<entry
+   committed-rev="100"
+   name="文件名清单.TXT"
+   text-time="2019-08-23T03:31:13.243545Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="b603daf172ec4570dc447bcafde41ee9"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:28.688136Z"/>
+<entry
+   name="uapeai"
+   kind="dir"/>
+<entry
+   name="steelcu"
+   kind="dir"/>
+<entry
+   name="sc"
+   kind="dir"
+   schedule="delete"/>
+<entry
+   name="so6"
+   kind="dir"/>
+<entry
+   name="mm"
+   kind="dir"/>
+<entry
+   name="gen"
+   kind="dir"/>
+<entry
+   name="baofc"
+   kind="dir"/>
+<entry
+   name="private"
+   kind="dir"/>
+<entry
+   name="uapqe"
+   kind="dir"/>
+<entry
+   name="baiyin"
+   kind="dir"/>
+<entry
+   name="mo"
+   kind="dir"/>
+<entry
+   name="public"
+   kind="dir"/>
+<entry
+   name="client"
+   kind="dir"/>
+<entry
+   name="fip"
+   kind="dir"/>
+</wc-entries>

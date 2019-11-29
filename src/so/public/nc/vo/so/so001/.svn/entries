@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/so/public/nc/vo/so/so001"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="SaleorderBVO.java"
+   text-time="2019-08-23T03:30:59.024928Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="7580b749e2bcadec4d0b6102b4860650"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:59.024928Z"/>
+<entry
+   committed-rev="100"
+   name="SaleSendCvmVO.java"
+   text-time="2019-08-23T03:30:59.040552Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="c47b35f4bfe1d34f4321df30b29fcbb4"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:59.024928Z"/>
+</wc-entries>

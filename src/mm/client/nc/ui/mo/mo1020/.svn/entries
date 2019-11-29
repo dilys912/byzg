@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/client/nc/ui/mo/mo1020"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="222"
+   name="MOEditPanel.java"
+   text-time="2019-08-26T03:45:10.864095Z"
+   committed-date="2019-09-17T01:40:29.496920Z"
+   checksum="a31c0b43dc775f1c76f107477739845a"
+   last-author="zwx"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.635817Z"
+   revision="222"/>
+<entry
+   committed-rev="100"
+   name="MOViewPanel.java"
+   text-time="2019-08-23T03:30:31.651443Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="ac48f3e28c9e0f98b35ac387fc616443"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.635817Z"/>
+<entry
+   committed-rev="100"
+   name="BasePanel.java"
+   text-time="2019-08-23T03:30:31.667069Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="d9732b5480a012131358c9604b4b4698"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.635817Z"/>
+<entry
+   committed-rev="100"
+   name="ClientUI.java"
+   text-time="2019-08-23T03:30:31.667069Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="6b2f008802b2c5084c30073c097bb606"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.635817Z"/>
+</wc-entries>

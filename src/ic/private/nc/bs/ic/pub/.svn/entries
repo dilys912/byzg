@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/ic/private/nc/bs/ic/pub"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   name="freeze"
+   kind="dir"/>
+<entry
+   committed-rev="200"
+   name="FJBillProcess.java"
+   text-time="2019-08-26T10:09:12.288644Z"
+   committed-date="2019-09-02T03:06:32.828877Z"
+   checksum="35994575d3171d83e66360ff523a435e"
+   last-author="zwx"
+   kind="file"
+   prop-time="2019-08-23T03:30:13.741596Z"
+   revision="200"/>
+<entry
+   name="bill"
+   kind="dir"/>
+<entry
+   committed-rev="225"
+   name="CPDLBillProcess.java"
+   text-time="2019-09-04T09:05:05.519505Z"
+   committed-date="2019-09-17T02:26:59.813446Z"
+   checksum="9dd13daab58e4d8784691c728027e828"
+   last-author="zwx"
+   kind="file"
+   prop-time="2019-08-23T03:30:14.526580Z"
+   revision="225"/>
+<entry
+   committed-rev="100"
+   name="InvOnHandDMO.java"
+   text-time="2019-08-23T03:30:16.056862Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="3588c40d04c561264504501355e2b478"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:15.025325Z"/>
+<entry
+   committed-rev="200"
+   name="LPWSBillProcess.java"
+   text-time="2019-08-26T09:59:56.693823Z"
+   committed-date="2019-09-02T03:06:32.828877Z"
+   checksum="9d9c265ee87c56d2155b17b660337b59"
+   last-author="zwx"
+   kind="file"
+   prop-time="2019-08-23T03:30:15.040955Z"
+   revision="200"/>
+<entry
+   committed-rev="200"
+   name="KLBillProcess.java"
+   text-time="2019-08-26T09:58:33.558283Z"
+   committed-date="2019-09-02T03:06:32.828877Z"
+   checksum="6e69ec1037b38fbedea15db061fdfa99"
+   last-author="zwx"
+   kind="file"
+   prop-time="2019-08-23T03:30:15.040955Z"
+   revision="200"/>
+<entry
+   name="monthsum"
+   kind="dir"/>
+<entry
+   name="vmi"
+   kind="dir"/>
+<entry
+   name="check"
+   kind="dir"/>
+<entry
+   name="lot"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/public/nc/vo/by/invapp"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   name="h0h001"
+   kind="dir"/>
+<entry
+   name="h0h002"
+   kind="dir"/>
+<entry
+   name="h0h003"
+   kind="dir"/>
+<entry
+   name="h0h004"
+   kind="dir"/>
+<entry
+   name="h0h005"
+   kind="dir"/>
+<entry
+   name="pub"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/pu/client/nc/ui/ps/estimate"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="168"/>
+<entry
+   committed-rev="100"
+   name="wwEstimateYFUI.java"
+   text-time="2019-08-23T03:31:07.056692Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="042c08584a19bf1aa5a1bca4259fb556"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:06.962933Z"/>
+<entry
+   committed-rev="100"
+   name="wwEstimateUI.java"
+   text-time="2019-08-23T03:31:07.072359Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="35f5a94cf92629bd3e852659cc9469ed"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:07.010199Z"/>
+<entry
+   committed-rev="100"
+   name="EstimateHelper.java"
+   text-time="2019-08-23T03:31:07.072359Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="c72b9202b2c447994577a922495859a7"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:07.025493Z"/>
+<entry
+   committed-rev="100"
+   name="saleEstimateYFUI.java"
+   text-time="2019-08-23T03:31:07.072359Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="648e3325405a776e25f045d2d544b370"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:07.056692Z"/>
+</wc-entries>

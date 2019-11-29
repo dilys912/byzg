@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="264"
+   name=""
+   committed-date="2019-10-11T06:57:10.501689Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/private/nc/bs/uap"
+   last-author="zwx"
+   kind="dir"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="264"/>
+<entry
+   name="itfreceive"
+   kind="dir"/>
+</wc-entries>

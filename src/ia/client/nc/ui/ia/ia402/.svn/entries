@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/ia/client/nc/ui/ia/ia402"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="ExcelExportTool.java"
+   text-time="2019-08-23T03:30:10.978158Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="060bfd06f2daa604dd68243c0ecdfd7d"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:10.962532Z"/>
+<entry
+   committed-rev="100"
+   name="AccountClientUI.java"
+   text-time="2019-08-23T03:30:10.978158Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="8d87148e709522fbc6ef76ca456139b1"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:10.962532Z"/>
+<entry
+   committed-rev="100"
+   name="YLCheckDlg.java"
+   text-time="2019-08-23T03:30:10.993786Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="3d5c12a3d439dfc3ff115e4dc4989a1f"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:10.978158Z"/>
+</wc-entries>

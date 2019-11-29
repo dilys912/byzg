@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/client/nc/ui/by/invapp/h0h001"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="TreeCardData.java"
+   text-time="2019-08-23T03:31:11.569079Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="bbc045be875ad1b52786d88b9d945685"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.569079Z"/>
+<entry
+   committed-rev="100"
+   name="TreeCardUI.java"
+   text-time="2019-08-23T03:31:11.584706Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="ec3fb661abb28ea8bc98b69f99df016d"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.569079Z"/>
+<entry
+   committed-rev="100"
+   name="TreeCardEventHandler.java"
+   text-time="2019-08-23T03:31:11.584706Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="f01014ebdea66d0cf1d73c4e48e2ce8e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.569079Z"/>
+<entry
+   committed-rev="100"
+   name="TreeCardController.java"
+   text-time="2019-08-23T03:31:11.584706Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="b6f92446c88bd061b44c1dd539847383"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.569079Z"/>
+</wc-entries>

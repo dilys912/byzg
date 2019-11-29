@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uapbd/client/nc/ui/bd/b14"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="NodePanelExt.java"
+   text-time="2019-08-23T03:30:22.025411Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="1d9a4466f248097757bfbba1052a605c"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.931613Z"/>
+<entry
+   committed-rev="100"
+   name="InvclBO_ClientExt.java"
+   text-time="2019-08-23T03:30:22.025411Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="44a636aa9bda1b8e931813bf1cca35d8"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:21.931613Z"/>
+<entry
+   committed-rev="100"
+   name="ClientUIExt.java"
+   text-time="2019-08-23T03:30:22.025411Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="cd7bc5303befad29e6c7bd992c0372b8"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:22.009797Z"/>
+</wc-entries>

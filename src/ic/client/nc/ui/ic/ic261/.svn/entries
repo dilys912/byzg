@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/ic/client/nc/ui/ic/ic261"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="CheckTypeChooser.java"
+   text-time="2019-08-23T03:30:17.617147Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="435821f7822a7b601bab119ca858d2f0"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:17.228680Z"/>
+<entry
+   committed-rev="100"
+   name="ChooseSpace.java"
+   text-time="2019-08-23T03:30:17.617147Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="7afbca63c6134bfb9ba3bfb99ab4cbd7"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:17.617147Z"/>
+</wc-entries>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/ic/client/nc/ui/ic/ic251"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="ProdocNoRefModel.java"
+   text-time="2019-08-23T03:30:17.088080Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="08c6a09c18e5babfaa6a74fad2ebf7d4"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:16.994275Z"/>
+<entry
+   committed-rev="100"
+   name="ProLineRefModel.java"
+   text-time="2019-08-23T03:30:17.088080Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="bf6bbaf18f4a6f8edace3f0ef911b396"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:16.994275Z"/>
+<entry
+   committed-rev="100"
+   name="ClientUI.java"
+   text-time="2019-08-23T03:30:17.088080Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="1d4daf4a8792fe028ac22576e2c496bf"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:17.072414Z"/>
+</wc-entries>

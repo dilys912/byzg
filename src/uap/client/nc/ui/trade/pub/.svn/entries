@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="165"
+   name=""
+   committed-date="2019-08-23T05:42:45.204749Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/client/nc/ui/trade/pub"
+   last-author="zwx"
+   kind="dir"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="165"/>
+<entry
+   committed-rev="166"
+   name="HGZCardPanelPRTS.java"
+   text-time="2019-08-23T05:43:34.382542Z"
+   committed-date="2019-08-23T05:43:41.390500Z"
+   checksum="58193f9815f2d1cf06221beee28f88a1"
+   last-author="zwx"
+   kind="file"
+   revision="166"/>
+<entry
+   committed-rev="199"
+   name="HGZListPanelPRTS.java"
+   text-time="2019-08-29T06:51:33.544549Z"
+   committed-date="2019-08-29T08:49:51.031657Z"
+   checksum="0a0d9bcbf7d309701f1c66107e788714"
+   last-author="zwx"
+   kind="file"
+   revision="199"/>
+</wc-entries>

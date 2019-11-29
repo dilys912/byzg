@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="gb2312"?>
+<module>
+	<public>
+    <component priority="0" singleton="true" remote="true" tx="NONE" >
+      <interface>nc.itf.ps.estimate.IEstimate_yf</interface>
+      <implementation>nc.bs.ps.estimate.EstimateImpl_yf</implementation>
+    </component>
+    <component priority="0" singleton="true" remote="true" tx="NONE" >
+      <interface>nc.itf.ps.estimate.IEstimate_saleyf</interface>
+      <implementation>nc.bs.ps.estimate.EstimateImpl_saleyf</implementation>
+    </component>
+    <component priority="0" singleton="true" remote="true" tx="NONE" >
+      <interface>nc.itf.ps.estimate.IEstimate_wwyf</interface>
+      <implementation>nc.bs.ps.estimate.EstimateImpl_wwyf</implementation>
+    </component>
+    <component priority="0" singleton="true" remote="true" tx="NONE" >
+      <interface>nc.itf.ps.estimate.IEstimate_ww</interface>
+      <implementation>nc.bs.ps.estimate.EstimateImpl_ww</implementation>
+    </component>
+   <component priority="0" singleton="true" remote="true" tx="NONE" >
+      <interface>nc.itf.ps.settle.ISettle_yf</interface>
+      <implementation>nc.bs.ps.settle.SettleImpl_yf</implementation>
+    </component>
+  </public>
+	<private>
+    <component name="IEstimate_yf" priority="0" singleton="true" supportAlias="true">
+      <implementation>nc.bs.ps.estimate.EstimateImpl_yf</implementation>
+    </component> 
+    <component name="IEstimate_saleyf" priority="0" singleton="true" supportAlias="true">
+      <implementation>nc.bs.ps.estimate.EstimateImpl_saleyf</implementation>
+    </component> 
+    <component name="IEstimate_wwyf" priority="0" singleton="true" supportAlias="true">
+      <implementation>nc.bs.ps.estimate.EstimateImpl_wwyf</implementation>
+    </component> 
+    <component name="IEstimate_ww" priority="0" singleton="true" supportAlias="true">
+      <implementation>nc.bs.ps.estimate.EstimateImpl_ww</implementation>
+    </component> 
+    <component name="ISettle_yf" priority="0" singleton="true" supportAlias="true">
+      <implementation>nc.bs.ps.settle.SettleImpl_yf</implementation>
+    </component> 
+  </private>
+</module>

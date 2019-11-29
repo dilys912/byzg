@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="102"
+   name=""
+   committed-date="2019-08-02T02:20:32.796924Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/META-INF"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="SCM_PU_PuPoPsEJB50_ADD_proxy.module"
+   text-time="2019-08-23T03:30:08.277955Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="1f189b7c454d36b46157064485243e98"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.168975Z"/>
+<entry
+   committed-rev="100"
+   name="ISendFyrPlan.module"
+   text-time="2019-08-23T03:30:08.293581Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="8c042adfba27586aa1b50516d9ac40ae"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.168975Z"/>
+<entry
+   committed-rev="100"
+   name="IQueryStockNoWare.module"
+   text-time="2019-08-23T03:30:08.293581Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="910a67609c24de1db358afd8e10feead"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.184452Z"/>
+<entry
+   committed-rev="100"
+   name="module.xml"
+   text-time="2019-08-23T03:30:08.293581Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="da02b5f407a67025203a95634e4bf72c"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.184452Z"/>
+<entry
+   committed-rev="100"
+   name="xcltest.upm"
+   text-time="2019-08-23T03:30:08.309208Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2a7dd1b918efa2f7f1c4514c1242420b"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.184452Z"/>
+<entry
+   committed-rev="100"
+   name="IBeginningDate.module"
+   text-time="2019-08-23T03:30:08.309208Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="10a96a4192531bc4bb99fae77a75982a"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.184452Z"/>
+<entry
+   name="baosteel"
+   kind="dir"/>
+<entry
+   committed-rev="100"
+   name="ICarryingAmount.module"
+   text-time="2019-08-23T03:30:08.309208Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2bcfe61db19158c1eeceaeab5baa0579"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.199824Z"/>
+<entry
+   committed-rev="100"
+   name="ISendTypeToCVM.module"
+   text-time="2019-08-23T03:30:08.324835Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="c5c553f028ad50f68c12151730a8f934"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.199824Z"/>
+<entry
+   committed-rev="100"
+   name="DespatchImpl.module"
+   text-time="2019-08-23T03:30:08.324835Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="66c6ba9dfb13b736a0b82a3255edee47"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.199824Z"/>
+<entry
+   committed-rev="157"
+   name="IUpdateBSRK.module"
+   text-time="2019-08-14T08:53:09.709000Z"
+   committed-date="2019-08-23T05:34:24.447240Z"
+   checksum="37e94e033349873b55316a20b137482b"
+   last-author="zwx"
+   kind="file"
+   revision="157"/>
+<entry
+   committed-rev="100"
+   name="IQueryNoStock.module"
+   text-time="2019-08-23T03:30:08.324835Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="3f45c60d3b00423ebf6fcaf5ad474188"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.215448Z"/>
+<entry
+   committed-rev="100"
+   name="ICloseSaleOrder.module"
+   text-time="2019-08-23T03:30:08.340461Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="c29b79b136abbdfbb3545cd5089371ab"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.215448Z"/>
+<entry
+   committed-rev="100"
+   name="IGetKl.module"
+   text-time="2019-08-23T03:30:08.340461Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="9719c9f875a53bb42600e8a19b24b883"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.215448Z"/>
+<entry
+   committed-rev="100"
+   name="Test.module"
+   text-time="2019-08-23T03:30:08.340461Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="e56003818f470c74f157f61521e257d1"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.215448Z"/>
+<entry
+   committed-rev="100"
+   name="IProductMove.module"
+   text-time="2019-08-23T03:30:08.356087Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2c9fc5f263c098856193ba702244b6ba"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.215448Z"/>
+<entry
+   committed-rev="100"
+   name="IInvBasDoc.module"
+   text-time="2019-08-23T03:30:08.356087Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2455bb357016f8e1ca1466516da06aae"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.215448Z"/>
+<entry
+   committed-rev="100"
+   name="IQueryStock.module"
+   text-time="2019-08-23T03:30:08.356087Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="189c77f045c0b73e6fcd64d601421e13"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.231074Z"/>
+<entry
+   committed-rev="102"
+   name="Idetermine.module"
+   text-time="2019-08-23T03:30:08.371714Z"
+   committed-date="2019-08-02T02:20:32.796924Z"
+   checksum="d07fcdebf5f3fafcb82b646b8689ceb8"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.231074Z"/>
+<entry
+   committed-rev="100"
+   name="ICloseMo6600.module"
+   text-time="2019-08-23T03:30:08.371714Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="d4709e0e1968c09cca402f82693b2bb0"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.231074Z"/>
+<entry
+   committed-rev="100"
+   name="SCM_PU_PuPoPsEJB50_ADD.module"
+   text-time="2019-08-23T03:30:08.371714Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="4b308af849f3a32a445ef27fffaad1be"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.231074Z"/>
+<entry
+   committed-rev="100"
+   name="ProdectionOut.module"
+   text-time="2019-08-23T03:30:08.387341Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a8307b81f5e2076aa6671395f0350461"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.231074Z"/>
+<entry
+   committed-rev="100"
+   name="INewQueryMo6600.module"
+   text-time="2019-08-23T03:30:08.387341Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="3d4474efde4a81ba22b4d6c4354af8ba"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.246701Z"/>
+<entry
+   committed-rev="100"
+   name="ICustbasdoc.module"
+   text-time="2019-08-23T03:30:08.387341Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a2f904cedd35e4ec43214409e4bd423e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.246701Z"/>
+<entry
+   committed-rev="100"
+   name="IQEReportBase.module"
+   text-time="2019-08-23T03:30:08.387341Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="25a8fba05d309264ba8ebcdb63202210"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.246701Z"/>
+<entry
+   committed-rev="100"
+   name="IIncreasePlace.module"
+   text-time="2019-08-23T03:30:08.403407Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="c110e6055f831a38f0072d6ecdd9155c"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.246701Z"/>
+<entry
+   committed-rev="100"
+   name="ISendInvclToCVM.module"
+   text-time="2019-08-23T03:30:08.403407Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="abdc00979f2a53a55508464d727f73ae"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.246701Z"/>
+<entry
+   committed-rev="100"
+   name="ISoOrderService.module"
+   text-time="2019-08-23T03:30:08.403407Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="0c48d40bfeb46b18a452ce200571e1c3"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.246701Z"/>
+<entry
+   committed-rev="156"
+   name="IPrintHgz.module"
+   text-time="2019-08-22T10:53:33.922000Z"
+   committed-date="2019-08-23T05:34:08.323574Z"
+   checksum="48ac21fc3cacd268c8d4273ab8370f46"
+   last-author="zwx"
+   kind="file"
+   revision="156"/>
+<entry
+   committed-rev="100"
+   name="ISaveMo6600.module"
+   text-time="2019-08-23T03:30:08.419034Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="54d9e2fa1fd23da00261247db3fdf92c"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.262328Z"/>
+<entry
+   committed-rev="100"
+   name="IQuerySaleOrderB.module"
+   text-time="2019-08-23T03:30:08.419034Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a6cc90e90d30ccf0716eb4625d6423f7"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.262328Z"/>
+<entry
+   committed-rev="100"
+   name="IInvBasCpxl.module"
+   text-time="2019-08-23T03:30:08.419034Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="b3c5e5dea6e2b87f74649f10a1c41abd"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.262328Z"/>
+<entry
+   committed-rev="100"
+   name="IPacking.module"
+   text-time="2019-08-23T03:30:08.434660Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="4b07a244b0563ee5f853693e99208979"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.262328Z"/>
+<entry
+   committed-rev="100"
+   name="SaleSendCVMImpl.module"
+   text-time="2019-08-23T03:30:08.434660Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="0d45f246f1101b6adca3ebabd0756963"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.262328Z"/>
+<entry
+   committed-rev="100"
+   name="IShippingReport.module"
+   text-time="2019-08-23T03:30:08.434660Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="ad6c25c9cb80a3bcef568a730e4c3848"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.262328Z"/>
+<entry
+   committed-rev="100"
+   name="IQueryMo6600.module"
+   text-time="2019-08-23T03:30:08.450287Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="6942dfa78ae7dbc826febc72a0828aec"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.277955Z"/>
+<entry
+   committed-rev="100"
+   name="IQueryFreight.module"
+   text-time="2019-08-23T03:30:08.450287Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="de637bc3c446438b8bcd7c7aabf3c06f"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.277955Z"/>
+<entry
+   committed-rev="100"
+   name="CheckCycleToCVMImpl.module"
+   text-time="2019-08-23T03:30:08.450287Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="f4bb6da37debcf12a221324b91da1a13"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.277955Z"/>
+<entry
+   committed-rev="100"
+   name="SaleToSendCVMImpl.module"
+   text-time="2019-08-23T03:30:08.465913Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="8ba7833ae197f0d0c0b3a5fe4b8af71a"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:08.277955Z"/>
+</wc-entries>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="158"
+   name=""
+   committed-date="2019-08-23T05:34:39.053269Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/private/nc/impl/wrback"
+   last-author="zwx"
+   kind="dir"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="158"/>
+<entry
+   name="state"
+   kind="dir"/>
+</wc-entries>

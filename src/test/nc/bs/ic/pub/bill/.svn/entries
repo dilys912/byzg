@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/bs/ic/pub/bill"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="GeneralBillDMO.java"
+   text-time="2019-08-23T03:30:42.542109Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="64d7fbf1d7bbd70fe32bf61d9728ef95"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:42.479617Z"/>
+<entry
+   committed-rev="100"
+   name="GeneralBillImpl.java"
+   text-time="2019-08-23T03:30:42.542109Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="4170be8ff47f50b5d8e716bd4915f92e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:42.495231Z"/>
+<entry
+   committed-rev="100"
+   name="OnhandnumDMO.java"
+   text-time="2019-08-23T03:30:42.557735Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="591ef52b35747045ab9baaa6df76d26b"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:42.526540Z"/>
+</wc-entries>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/client/nc/ui/by/invapp/h0h002"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="ClientCtrl.java"
+   text-time="2019-08-23T03:31:11.615960Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="edab8fc0197d7ad07021c6cb122e5d22"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.600333Z"/>
+<entry
+   committed-rev="100"
+   name="ClientUI.java"
+   text-time="2019-08-23T03:31:11.615960Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="4bb47831b5fb7db0a35f10b1fbbfce19"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.615960Z"/>
+<entry
+   committed-rev="100"
+   name="ClientEventHandler.java"
+   text-time="2019-08-23T03:31:11.635840Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="7fbb9316485a3411707cd9a0b2a5b7b4"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.615960Z"/>
+</wc-entries>

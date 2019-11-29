@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/client/nc/ui/report"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="ExportExcel.java"
+   text-time="2019-08-23T03:31:12.071606Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="bbd76d232711b8410ab16608067df9ca"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.055979Z"/>
+<entry
+   committed-rev="100"
+   name="MaterialCostReport.java"
+   text-time="2019-08-23T03:31:12.087233Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="22744dc1506454bbf0070586885e0e07"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.071606Z"/>
+<entry
+   committed-rev="100"
+   name="ReportQDLG.java"
+   text-time="2019-08-23T03:31:12.087233Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="aa1f8721262e72a40547dbd200bdee8d"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.071606Z"/>
+<entry
+   committed-rev="100"
+   name="ReportQP.java"
+   text-time="2019-08-23T03:31:12.087233Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="34eb78716dccccb48aa54cb405608234"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:12.071606Z"/>
+</wc-entries>

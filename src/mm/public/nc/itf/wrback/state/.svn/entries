@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="142"
+   name=""
+   committed-date="2019-08-21T08:59:54.640533Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/public/nc/itf/wrback/state"
+   last-author="gt"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="250"
+   name="IWriteBackStateService.java"
+   text-time="2019-09-18T09:21:17.807529Z"
+   committed-date="2019-09-29T01:45:48.131943Z"
+   checksum="f840518d51e6bd168160cb3a7113ed09"
+   last-author="zwx"
+   kind="file"
+   prop-time="2019-08-23T03:30:31.792094Z"
+   revision="250"/>
+</wc-entries>

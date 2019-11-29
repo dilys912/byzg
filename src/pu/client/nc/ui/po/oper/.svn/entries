@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="147"
+   name=""
+   committed-date="2019-08-22T03:09:11.537020Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/pu/client/nc/ui/po/oper"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="168"/>
+<entry
+   committed-rev="107"
+   name="OrderUIButton.java"
+   text-time="2019-08-23T03:31:09.463357Z"
+   committed-date="2019-08-08T10:44:39.414922Z"
+   checksum="545753914d9bf3efce0ec1f55a8d5f28"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:09.307085Z"/>
+<entry
+   committed-rev="107"
+   name="PoToftPanelButton.java"
+   text-time="2019-08-23T03:31:09.478978Z"
+   committed-date="2019-08-08T10:44:39.414922Z"
+   checksum="05ef3f77012ee345b8a352e793ba0e7a"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:09.307085Z"/>
+<entry
+   committed-rev="100"
+   name="GongyingshangQueryModel.java"
+   text-time="2019-08-23T03:31:09.478978Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="3199d6fc94746f20ba5cca9fd0a9be0c"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:09.307085Z"/>
+<entry
+   committed-rev="147"
+   name="OrderUI.java"
+   text-time="2019-08-23T03:31:09.478978Z"
+   committed-date="2019-08-22T03:09:11.537020Z"
+   checksum="f52f5a5b9984fc710b7884892db73f87"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:09.322773Z"/>
+<entry
+   committed-rev="106"
+   name="PoToftPanel.java"
+   text-time="2019-08-23T03:31:09.494643Z"
+   committed-date="2019-08-08T10:25:30.976708Z"
+   checksum="bf88adca92137e05c5e454d2d6e49926"
+   last-author="zy"
+   kind="file"
+   prop-time="2019-08-23T03:31:09.447726Z"/>
+<entry
+   committed-rev="100"
+   name="WriteExcel.java"
+   text-time="2019-08-23T03:31:09.494643Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="ca5201551a70371f75440411b1983dfb"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:09.463357Z"/>
+</wc-entries>

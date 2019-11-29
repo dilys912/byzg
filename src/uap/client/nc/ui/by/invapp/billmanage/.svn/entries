@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/uap/client/nc/ui/by/invapp/billmanage"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="AbstractMultiChildClientUI.java"
+   text-time="2019-08-23T03:31:11.977846Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="7808827a9cb39c4f7dd9189de26050b2"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.930967Z"/>
+<entry
+   committed-rev="100"
+   name="AbstractClientUI.java"
+   text-time="2019-08-23T03:31:11.977846Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a6ffadf197bc877c12f54b31f45b908f"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.946594Z"/>
+<entry
+   committed-rev="100"
+   name="AbstractEventHandler.java"
+   text-time="2019-08-23T03:31:11.993473Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="d40fed54721abad5e3f605ace2d95c72"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.962222Z"/>
+<entry
+   committed-rev="100"
+   name="AbstractCtrl.java"
+   text-time="2019-08-23T03:31:11.993473Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="90975bda310a88a4bde95c2b9c8a745a"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.962222Z"/>
+<entry
+   committed-rev="100"
+   name="CommonBusinessDelegator.java"
+   text-time="2019-08-23T03:31:11.993473Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="fe3a2d242242ecb7a4d5dab924a1e79e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:11.977846Z"/>
+</wc-entries>

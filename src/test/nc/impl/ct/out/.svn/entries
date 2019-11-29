@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/impl/ct/out"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="PurBackToCtImpl.java"
+   text-time="2019-08-23T03:30:34.432592Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="89ffc4f0f09693b4730f1e7589adbe97"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:34.416966Z"/>
+<entry
+   committed-rev="100"
+   name="SoQryCtDMO.java"
+   text-time="2019-08-23T03:30:34.432592Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2dfd74f078ef256be72370922899b89a"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:34.416966Z"/>
+<entry
+   committed-rev="100"
+   name="SoQryCtBO.java"
+   text-time="2019-08-23T03:30:34.448218Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="d7c564cb21db5c4d75e01b6cde9df5c5"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:34.432592Z"/>
+</wc-entries>

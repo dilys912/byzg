@@ -1,0 +1,221 @@
+package nc.ui.arap.h101; 
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import nc.bs.dao.DAOException;
+import nc.bs.framework.common.NCLocator;
+import nc.bs.trade.business.HYSuperDMO;
+import nc.itf.pub.rino.IPubDMO;
+import nc.itf.uap.IUAPQueryBS;
+import nc.jdbc.framework.processor.MapListProcessor;
+import nc.ui.by.invapp.billmanage.AbstractEventHandler;
+import nc.ui.pub.ButtonObject;
+import nc.ui.pub.bill.BillModel;
+import nc.ui.trade.controller.IControllerBase;
+import nc.ui.trade.manage.BillManageUI;
+import nc.ui.zg.exportAndImport.ClientToolKits;
+import nc.vo.by.invapp.pub.Toolkits.Toolkits;
+import nc.vo.pub.lang.UFDouble;
+ 
+/** 
+ * @author 自动生成  
+*/ 
+public class ClientEventHandler extends AbstractEventHandler{ 
+	 
+	public ClientEventHandler(BillManageUI billUI, IControllerBase control) { 
+		super(billUI, control); 
+	} 
+	@Override
+	protected void onBoElse(int intBtn) throws Exception {
+		super.onBoElse(intBtn);
+		if(intBtn==001){
+			onboBTN_EXPOER();//导出
+		}
+	}
+	@Override
+	protected void onBoLineAdd() throws Exception {
+		// TODO Auto-generated method stub
+		super.onBoLineAdd();
+	}
+	@Override
+	public void onBoAdd(ButtonObject bo) throws Exception {
+		super.onBoAdd(bo);
+	}
+//	@Override
+//	public void onBoQuery() throws Exception {
+//		StringBuffer strWhere = getWhere();
+//        if (askForQueryCondition(strWhere) == false)
+//            return;// 用户放弃了查询
+//        Object makedate = getBillCardPanelWrapper().getBillCardPanel().getTailItem("dmakedate");
+//        Object vbillcode = getBillCardPanelWrapper().getBillCardPanel().getHeadItem("vbillcode");
+//        if(makedate!=null&&vbillcode!=null)
+//        	strWhere.append(" order by dmakedate desc,vbillcode desc");
+//        else if(makedate!=null)
+//        	strWhere.append(" order by dmakedate desc");
+//        else if(vbillcode!=null)
+//        	strWhere.append(" order by vbillcode desc");
+//        SuperVO[] queryVos = queryHeadVOs(strWhere.toString());
+//        strCon=strWhere.toString();
+//        getBufferData().clear();
+//        addDataToBuffer(queryVos);
+//        updateBuffer();
+//	}
+//	
+	/**
+	 * 单据导出
+	 */
+	private void onboBTN_EXPOER() {
+		try {
+			ClientToolKits.onBoExport((BillManageUI)getBillUI(), getBillUI().getTitle());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	/**
+	 * 功能：导入单据
+	 * */
+	IPubDMO ipubdmo = (IPubDMO)NCLocator.getInstance().lookup(IPubDMO.class.getName());
+	IUAPQueryBS sessionManager = (IUAPQueryBS) NCLocator.getInstance().lookup(
+	  		  IUAPQueryBS.class.getName());
+	@Override
+	protected void onBoSave() throws Exception {
+		StringBuffer djfbzj = new StringBuffer();
+		List<String> pk_bt = new ArrayList<String>();
+		int row = getBillCardPanelWrapper().getBillCardPanel().getBillModel().getRowCount();
+		for (int i = 0; i < row; i++) {
+			if(i>0){
+				djfbzj.append(" , ");
+			}
+			String zj = (String) getBillCardPanelWrapper().getBillCardPanel().getBillModel().getValueAt(i, "yfdzbzj");
+			djfbzj.append(" '"+zj+"' ");
+			pk_bt.add(zj);
+		}
+		super.onBoSave();
+		//1表示已生成
+		StringBuffer rollback = new StringBuffer();
+		rollback.append(" update arap_djfb set zyx9 = '1' where dwbm = '1078' and fb_oid in ("+djfbzj.toString()+")  and nvl(dr,0)=0 ;");
+		
+		ipubdmo.executeUpdate(rollback.toString());
+		
+		//如果表体数据都回写完，在表头打标记 已全部生成付款申请单
+		for (int i = 0; i < pk_bt.size(); i++) {
+			String zj2 = pk_bt.get(i);
+			StringBuffer rollbackzb1 = new StringBuffer();
+			rollbackzb1.append(" select * from arap_djfb where vouchid =( ") 
+			.append(" select vouchid from arap_djfb where fb_oid = '"+zj2+"')")
+			.append("  dwbm = '1078' and and  nvl(zyx9,0) <> '1' and nvl(dr,0)=0 ; "); 
+			List a = (List) sessionManager.executeQuery(rollbackzb1.toString(),new MapListProcessor());
+			if(a == null ||a.size() <= 0){
+				StringBuffer rollbackzb2 = new StringBuffer();
+				rollbackzb2.append(" update arap_djzb set zyx9 = '1' where vouchid =( ") 
+					.append(" select vouchid from arap_djfb where  dwbm = '1078' and fb_oid = '"+zj2+"')")
+					.append("  dwbm = '1078' and and  nvl(zyx9,0) <> '1' and nvl(dr,0)=0 ; "); 
+				
+				ipubdmo.executeUpdate(rollbackzb2.toString());
+			}
+		}
+
+	}
+	@Override
+	protected void onBoDelete() throws Exception {
+		StringBuffer djfbzj = new StringBuffer();
+		List<String> pk_bt = new ArrayList<String>();
+		int row = getBillCardPanelWrapper().getBillCardPanel().getBillModel().getRowCount();
+		for (int i = 0; i < row; i++) {
+			if(i>0){
+				djfbzj.append(" , ");
+			}
+			String zj = (String) getBillCardPanelWrapper().getBillCardPanel().getBillModel().getValueAt(i, "yfdzbzj");
+			djfbzj.append(" '"+zj+"' ");
+			pk_bt.add(zj);
+		}
+		super.onBoDelete();
+		//0表示未生成
+		StringBuffer rollback = new StringBuffer();
+		rollback.append(" update arap_djfb set zyx9 = '0' where dwbm = '1078' and fb_oid in ("+djfbzj.toString()+")  and nvl(dr,0)=0 ;");
+		
+		ipubdmo.executeUpdate(rollback.toString());
+		//回写表头未生成
+		StringBuffer rollbackzb1 = new StringBuffer();
+		rollbackzb1.append(" select distinct vouchid from arap_djfb where dwbm = '1078' and fb_oid in ("+djfbzj.toString()+") and nvl(dr,0)=0 ; "); 
+		List a = (List) sessionManager.executeQuery(rollbackzb1.toString(),new MapListProcessor());
+		StringBuffer djzbzj = new StringBuffer();
+		if(a.size()>0){
+			for (int i = 0; i < a.size(); i++) {		
+				if(i>0){
+					djzbzj.append(" , ");
+				}
+				String zj = a.get(i).toString();
+				djzbzj.append(" '"+zj+"' ");
+			}
+			StringBuffer rollbackzb2 = new StringBuffer();
+			rollbackzb2.append(" update arap_djzb set zyx9 = '0' where  dwbm = '1078' and vouchid in ("+djzbzj.toString()+") ")
+			.append(" and nvl(dr,0)=0 ; "); 			
+			ipubdmo.executeUpdate(rollbackzb2.toString());
+		}
+	}
+	@Override
+	protected void onBoEdit() throws Exception {
+		super.onBoEdit();
+	}
+	
+	@Override
+	protected String getHeadCondition() {
+		return null;
+	}
+	
+	@Override
+	public void onButton(ButtonObject bo) {
+		super.onButton(bo);
+        ButtonObject parent=bo.getParent();
+        if(!Toolkits.isEmpty(parent)){
+            String code=bo.getParent().getCode();
+            if("增加".equalsIgnoreCase(code)){
+            	int row = getBillCardPanelWrapper().getBillCardPanel().getBillModel().getRowCount();
+        		if(row > 0){
+        			String pk_gys = "";
+        			UFDouble yfze = new UFDouble(0);
+        			List yfdhlist = new ArrayList();
+        			for (int i = 0; i < row; i++) {
+        				pk_gys = getBillCardPanelWrapper().getBillCardPanel().getBillModel().getValueAt(i, "pk_gys").toString();
+        				String yfdh = getBillCardPanelWrapper().getBillCardPanel().getBillModel().getValueAt(i, "yfd").toString();
+        				UFDouble yfye = new UFDouble(getBillCardPanelWrapper().getBillCardPanel().getBillModel().getValueAt(i, "ybye").toString());
+        				yfze = yfze.add(yfye);
+        				if(yfdhlist.contains(yfdh)){
+        					
+        				}else{
+        					yfdhlist.add(yfdh);
+        				}
+        			}
+					getBillCardPanelWrapper().getBillCardPanel().setHeadItem("zfje", yfze);
+        			//收款帐号，收款开户行
+        			String sql = "select accname,account from bd_custbank where nvl(dr,0)=0 and pk_cubasdoc = '"+pk_gys+"'";
+        			try {
+						List a = (List) sessionManager.executeQuery(sql,new MapListProcessor());
+						if(a.size()>0){
+							Map sk = (Map) a.get(0);
+							getBillCardPanelWrapper().getBillCardPanel().setHeadItem("skkhh", sk.get("accname"));
+							getBillCardPanelWrapper().getBillCardPanel().setHeadItem("skzh", sk.get("account"));
+						}
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+        			//应付单
+        			if(yfdhlist.size() > 0){
+        				String yfd = "";
+        				for (int i = 0; i < yfdhlist.size(); i++) {
+        					if(i==0){
+        						yfd = yfd+yfdhlist.get(i);
+        					}else{        						
+        						yfd = yfd+","+yfdhlist.get(i);
+        					}
+						}
+        				getBillCardPanelWrapper().getBillCardPanel().setHeadItem("vmemo", yfd);
+        			}
+        		}
+            }
+        }
+	}
+} 

@@ -1,0 +1,63 @@
+package nc.ui.scm.pub.bill;
+
+public abstract interface ScmButtonConst
+{
+  public static final String BTN_BUSINESS_TYPE = "业务类型";
+  public static final String BTN_ADD = "增加";
+  public static final String BTN_SAVE = "保存";
+  public static final String BTN_BILL = "维护";
+  public static final String BTN_BILL_EDIT = "修改";
+  public static final String BTN_BILL_CANCEL = "取消";
+  public static final String BTN_BILL_DELETE = "删除";
+  public static final String BTN_BILL_DISCARD = "作废";
+  public static final String BTN_BILL_COPY = "复制";
+  public static final String BTN_LINE = "行操作";
+  public static final String BTN_LINE_ADD = "增行";
+  public static final String BTN_LINE_DELETE = "删行";
+  public static final String BTN_LINE_INSERT = "插入行";
+  public static final String BTN_LINE_COPY = "复制行";
+  public static final String BTN_LINE_PASTE = "粘贴行";
+  public static final String BTN_AUDIT = "审核";
+  public static final String BTN_EXECUTE = "执行";
+  public static final String BTN_EXECUTE_AUDIT = "送审";
+  public static final String BTN_EXECUTE_AUDIT_CANCEL = "弃审";
+  public static final String BTN_EXECUTE_FREEZE = "冻结";
+  public static final String BTN_EXECUTE_FREEZE_CANCEL = "解冻";
+  public static final String BTN_EXECUTE_CLOSE = "关闭";
+  public static final String BTN_EXECUTE_OPEN = "打开";
+  public static final String BTN_EXECUTE_LINE_CLOSE = "行关闭";
+  public static final String BTN_EXECUTE_LINE_OPEN = "行打开";
+  public static final String BTN_QUERY = "查询";
+  public static final String BTN_BROWSE = "浏览";
+  public static final String BTN_BROWSE_REFRESH = "刷新";
+  public static final String BTN_BROWSE_LOCATE = "定位";
+  public static final String BTN_BROWSE_TOP = "首页";
+  public static final String BTN_BROWSE_PREVIOUS = "上页";
+  public static final String BTN_BROWSE_NEXT = "下页";
+  public static final String BTN_BROWSE_BOTTOM = "末页";
+  public static final String BTN_BROWSE_SELECT_ALL = "全选";
+  public static final String BTN_BROWSE_SELECT_NONE = "全消";
+  public static final String BTN_SWITCH = "卡片显示/列表显示";
+  public static final String BTN_CARD = "卡片显示";
+  public static final String BTN_LIST = "列表显示";
+  public static final String BTN_PRINT = "打印管理";
+  public static final String BTN_PRINT_PREVIEW = "预览";
+  public static final String BTN_PRINT_PRINT = "打印";
+  public static final String BTN_PRINT_DIRECT = "直接打印";
+  public static final String BTN_PRINT_SUM = "汇总打印";
+  public static final String BTN_PRINT_DISTINCT = "合并显示";
+  public static final String BTN_ASSIST_FUNC = "辅助功能";
+  public static final String BTN_ASSIST_FUNC_DOCUMENT = "文档管理";
+  public static final String BTN_ASSIST_FUNC_ONHAND = "存量显示/隐藏";
+  public static final String BTN_ASSIST_QUERY = "辅助查询";
+  public static final String BTN_ASSIST_QUERY_RELATED = "联查";
+  public static final String BTN_ASSIST_QUERY_ONHAND = "存量查询";
+  public static final String BTN_ASSIST_QUERY_SUITE = "成套件信息";
+  public static final String BTN_ASSIST_QUERY_WORKFLOW = "审批流状态";
+  public static final String BTN_EXPORT_IMPORT = "导出/导入";
+  public static final String BTN_EXPORT_TO_DIRECTORY = "导出到指定目录";
+  public static final String BTN_EXPORT_TO_XML = "导出到XML";
+  public static final String BTN_IMPORT_BILL = "导入单据";
+  public static final String BTN_REF_CANCEL = "放弃转单";
+//  public static final String BTN_REF_EXCEL = "EXCEL导入";    //增加 2017-04-28  yqq
+}

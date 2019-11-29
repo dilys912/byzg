@@ -1,0 +1,177 @@
+package nc.bs.pf.changedir;
+
+import nc.bs.pf.change.VOConversion;
+import nc.vo.pf.change.UserDefineFunction;
+
+public class CHG4YTO4E extends VOConversion {
+	public String getAfterClassName() {
+		return "nc.bs.ic.pub.pfconv.ChgAft4Y24E";
+	}
+
+	public String getOtherClassName() {
+		return "nc.ui.ic.pub.pfconv.ChgAft4Y24E";
+	}
+
+	public String[] getField() {
+		return new String[] {
+				// add by zip: 2014/3/24 common error
+				"H_cdptid->H_cdptid",
+				// add end
+				"H_pk_corp->H_cothercorpid", //
+				"H_coperatoridnow->SYSOPERATOR",
+				"H_coperatorid->SYSOPERATOR",
+				"H_cwhsmanagerid->H_cwhsmanagerid",
+				"H_vuserdef9->H_vuserdef9",
+				"H_vuserdef8->H_vuserdef8",
+				"H_vuserdef7->H_vuserdef7",
+				"H_vnote->H_vnote",
+				"H_vuserdef6->H_vuserdef6",
+				"H_vuserdef5->H_vuserdef5",
+				"H_fallocflag->H_fallocflag",
+				"H_vuserdef4->H_vuserdef4",
+				"H_vuserdef3->H_vuserdef3",
+				"H_vuserdef2->H_vuserdef2",
+				"H_vuserdef1->H_vuserdef1",
+				"H_coutbodyname->H_coutbodyname",
+				"H_clogdatenow->SYSDATE",
+				"H_vuserdef10->H_vuserdef10",
+				"H_vuserdef11->H_vuserdef11",
+				"H_vuserdef12->H_vuserdef12",
+				"H_vuserdef13->H_vuserdef13",
+				"H_vuserdef14->H_vuserdef14",
+				"H_vuserdef15->H_vuserdef15",
+				"H_vuserdef16->H_vuserdef16",
+				"H_vuserdef17->H_vuserdef17",
+				"H_vuserdef18->H_vuserdef18",
+				"H_vuserdef19->H_vuserdef19",
+				"H_vuserdef20->H_vuserdef20",
+				"H_cothercalbodyid->H_pk_calbody",
+				"H_coutcalbodyid->H_coutcalbodyid",
+				"H_cothercorpid->H_pk_corp",
+				"H_cwarehouseid->H_cotherwhid",
+				"H_freplenishflag->H_freplenishflag",
+				"H_fallocflag->H_fallocflag",
+				"H_pk_calbody->H_cothercalbodyid",
+				"H_coutunitname->H_coutunitname",
+				"H_coutcorpid->H_coutcorpid",
+				"H_dbilldate->SYSDATE",
+				"H_cbiztypeid->H_cbiztypeid",
+				"H_cotherwhid->H_cwarehouseid",
+				"H_pk_vdiliveraddressid->H_vdiliveraddressid",
+				"H_pk_vdiliveraddress->H_vdiliveraddress",
+				"B_vfree2->B_vfree2",
+				"B_vfree1->B_vfree1",
+				"B_cinvmanid->B_cinvmanid",
+				"B_cinvbasid->B_cinvbasid",
+				"B_cfirstbillbid->B_cfirstbillbid",
+				"B_cfirsttype->B_cfirsttype",
+				"B_cinventoryid->B_cinventoryid",
+				"B_hsl->B_hsl",
+				"B_vsourcerowno->B_crowno",
+				"B_vuserdef10->B_vuserdef10",
+				"B_vuserdef11->B_vuserdef11",
+				"B_vuserdef12->B_vuserdef12",
+				"B_vuserdef13->B_vuserdef13",
+				"B_vuserdef14->B_vuserdef14",
+				"B_vuserdef15->B_vuserdef15",
+				"B_vuserdef16->B_vuserdef16",
+				"B_vuserdef17->B_vuserdef17",
+				"B_vuserdef18->B_vuserdef18",
+				"B_vuserdef19->B_vuserdef19",
+				"B_vuserdef20->B_vuserdef20",
+				"B_cprojectphaseid->B_cprojectphaseid",
+				"B_scrq->B_scrq",
+				"B_vnotebody->B_vnotebody",
+				"B_cfirstbillhid->B_cfirstbillhid",
+				"B_cprojectid->B_cprojectid",
+				"B_csourcebillbid->B_cgeneralbid",
+				"B_csourcebodyts->B_ts",
+				"B_dvalidate->B_dvalidate",
+				"B_csourceheadts->H_ts",
+				"B_ccostobject->B_ccostobject",
+				"B_vuserdef9->B_vuserdef9",
+				"B_vuserdef8->B_vuserdef8",
+				"B_vuserdef7->B_vuserdef7",
+				"B_vuserdef6->B_vuserdef6",
+				"B_vuserdef5->B_vuserdef5",
+				"B_vuserdef4->B_vuserdef4",
+				"B_vuserdef3->B_vuserdef3",
+				"B_vuserdef2->B_vuserdef2",
+				"B_vuserdef1->B_vuserdef1",
+				"B_vsourcebillcode->H_vbillcode",
+				"B_nprice->B_nprice",
+				"B_csourcebillhid->B_cgeneralhid",
+				"B_castunitid->B_castunitid",
+				"B_vbatchcode->B_vbatchcode",
+				"B_vfirstbillcode->B_vfirstbillcode",
+				"B_dbizdate->SYSDATE",
+				"B_vfree5->B_vfree5",
+				"B_vfree4->B_vfree4",
+				"B_vfree3->B_vfree3",
+				"H_pk_defdoc1->H_pk_defdoc1",
+				"H_pk_defdoc2->H_pk_defdoc2",
+				"H_pk_defdoc3->H_pk_defdoc3",
+				"H_pk_defdoc4->H_pk_defdoc4",
+				"H_pk_defdoc5->H_pk_defdoc5",
+				"H_pk_defdoc6->H_pk_defdoc6",
+				"H_pk_defdoc7->H_pk_defdoc7",
+				"H_pk_defdoc8->H_pk_defdoc8",
+				"H_pk_defdoc9->H_pk_defdoc9",
+				"H_pk_defdoc10->H_pk_defdoc10",
+				"H_pk_defdoc11->H_pk_defdoc11",
+				"H_pk_defdoc12->H_pk_defdoc12",
+				"H_pk_defdoc13->H_pk_defdoc13",
+				"H_pk_defdoc14->H_pk_defdoc14",
+				"H_pk_defdoc15->H_pk_defdoc15",
+				"H_pk_defdoc16->H_pk_defdoc16",
+				"H_pk_defdoc17->H_pk_defdoc17",
+				"H_pk_defdoc18->H_pk_defdoc18",
+				"H_pk_defdoc19->H_pk_defdoc19",
+				"H_pk_defdoc20->H_pk_defdoc20",
+				"B_pk_defdoc1->B_pk_defdoc1",
+				"B_pk_defdoc2->B_pk_defdoc2",
+				"B_pk_defdoc3->B_pk_defdoc3",
+				"B_pk_defdoc4->B_pk_defdoc4",
+				"B_pk_defdoc5->B_pk_defdoc5",
+				"B_pk_defdoc6->B_pk_defdoc6",
+				"B_pk_defdoc7->B_pk_defdoc7",
+				"B_pk_defdoc8->B_pk_defdoc8",
+				"B_pk_defdoc9->B_pk_defdoc9",
+				"B_pk_defdoc10->B_pk_defdoc10",
+				"B_pk_defdoc11->B_pk_defdoc11",
+				"B_pk_defdoc12->B_pk_defdoc12",
+				"B_pk_defdoc13->B_pk_defdoc13",
+				"B_pk_defdoc14->B_pk_defdoc14",
+				"B_pk_defdoc15->B_pk_defdoc15",
+				"B_pk_defdoc16->B_pk_defdoc16",
+				"B_pk_defdoc17->B_pk_defdoc17",
+				"B_pk_defdoc18->B_pk_defdoc18",
+				"B_pk_defdoc19->B_pk_defdoc19",
+				"B_pk_defdoc20->B_pk_defdoc20",
+				"H_ischeckatp->H_ischeckatp",
+				"B_ischeckatp->B_ischeckatp",
+				"B_bsourcelargess->B_flargess",
+				"B_flargess->B_flargess",
+				"B_cvendorid->B_cvendorid",
+				"B_ningrossnum->B_noutgrossnum",
+				"B_ntarenum->B_ntarenum",
+				"B_cquoteunitid->B_cquoteunitid",
+				"B_nquoteunitrate->B_nquoteunitrate"
+		};
+	}
+
+	public String[] getFormulas() {
+		return new String[] {
+				"H_cbilltypecode->\"4E\"", "B_csourcetype->\"4Y\"",//
+				"B_nshouldinnum->B_noutnum   -   B_ntranoutnum - B_naccumwastnum ",
+				"B_nneedinassistnum->B_noutassistnum   -   B_ntranoutastnum - B_naccumwastnum/B_hsl ",
+				"B_ninnum->B_noutnum   -   B_ntranoutnum - B_naccumwastnum ",
+				"B_ninassistnum->B_noutassistnum   -   B_ntranoutastnum - B_naccumwastnum/B_hsl ",
+				"B_nquoteunitnum->(B_noutnum   -   B_ntranoutnum - B_naccumwastnum)/B_nquoteunitrate "
+		};
+	}
+
+	public UserDefineFunction[] getUserDefineFunction() {
+		return null;
+	}
+}

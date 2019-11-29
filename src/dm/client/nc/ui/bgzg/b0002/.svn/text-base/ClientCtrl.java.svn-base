@@ -1,0 +1,160 @@
+/**
+ * 
+ */
+package nc.ui.bgzg.b0002;
+
+import nc.ui.trade.bill.ICardController;
+import nc.ui.trade.businessaction.IBusinessActionType;
+import nc.ui.trade.button.IBillButton;
+import nc.vo.bgzg.b0002.HGZVO;
+import nc.vo.bgzg.b0002.MyBillVO;
+import nc.vo.bgzg.pub.IBgzgButton;
+import nc.vo.trade.pub.HYBillVO;
+
+/**
+ * @author Administrator
+ *
+ */
+public class ClientCtrl implements ICardController {
+
+	/**
+	 * 
+	 */
+	public ClientCtrl() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.bill.ICardController#getCardBodyHideCol()
+	 */
+	public String[] getCardBodyHideCol() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.bill.ICardController#getCardButtonAry()
+	 */
+	public int[] getCardButtonAry() {
+		// TODO Auto-generated method stub
+		return new int[]{ 
+				IBillButton.Add, 
+				IBgzgButton.print, 
+				IBgzgButton.hgztm,
+				IBillButton.Cancel
+				
+		};		
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.bill.ICardController#isShowCardRowNo()
+	 */
+	public boolean isShowCardRowNo() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.bill.ICardController#isShowCardTotal()
+	 */
+	public boolean isShowCardTotal() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.controller.IControllerBase#getBillType()
+	 */
+	public String getBillType() {
+		// TODO Auto-generated method stub
+		return "HGZ";
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.controller.IControllerBase#getBillVoName()
+	 */
+	public String[] getBillVoName() {
+		// TODO Auto-generated method stub
+		return new String []{
+				MyBillVO.class.getName(),HGZVO.class.getName(),HGZVO.class.getName()	
+		};
+		
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.controller.IControllerBase#getBodyCondition()
+	 */
+	public String getBodyCondition() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.controller.IControllerBase#getBodyZYXKey()
+	 */
+	public String getBodyZYXKey() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.controller.IControllerBase#getBusinessActionType()
+	 */
+	public int getBusinessActionType() {
+		// TODO Auto-generated method stub
+		return IBusinessActionType.BD;
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.controller.IControllerBase#getChildPkField()
+	 */
+	public String getChildPkField() {
+		// TODO Auto-generated method stub
+		return "pk_hgz";
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.controller.IControllerBase#getHeadZYXKey()
+	 */
+	public String getHeadZYXKey() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.controller.IControllerBase#getPkField()
+	 */
+	public String getPkField() {
+		// TODO Auto-generated method stub
+		return "pk_hgz";
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.controller.IControllerBase#isEditInGoing()
+	 */
+	public Boolean isEditInGoing() throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.controller.IControllerBase#isExistBillStatus()
+	 */
+	public boolean isExistBillStatus() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.controller.IControllerBase#isLoadCardFormula()
+	 */
+	public boolean isLoadCardFormula() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	/* (non-Javadoc)
+	 * @see nc.ui.trade.bill.IListController#getListBodyHideCol()
+	 */
+	
+}

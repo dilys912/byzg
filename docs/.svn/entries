@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/docs"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="PDA基础档案修改"
+   text-time="2019-08-23T03:31:13.290426Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a47adaad20468ddffaab7ea4c782eafe"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:13.274799Z"/>
+<entry
+   committed-rev="100"
+   name="V_IC_ONHANDNUM4_库龄系统视图_备份.sql"
+   text-time="2019-08-23T03:31:13.290426Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="e5291f6209daf0f307539ff03854f697"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:13.274799Z"/>
+<entry
+   name="baosteel"
+   kind="dir"/>
+<entry
+   committed-rev="100"
+   name="问题修复说明"
+   text-time="2019-08-23T03:31:13.290426Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="8162d35eb22ab17057fde792476342a6"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:13.290426Z"/>
+</wc-entries>

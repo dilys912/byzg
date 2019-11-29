@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/sc/client/nc/ui/sc/pub"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="173"/>
+<entry
+   committed-rev="182"
+   name="OtherRefModel.java"
+   text-time="2019-08-26T03:38:08.399571Z"
+   committed-date="2019-08-26T04:04:37.271709Z"
+   checksum="02dd45d5071340395e52d624f6e8ba89"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-24T07:35:36.962410Z"
+   revision="182"/>
+</wc-entries>

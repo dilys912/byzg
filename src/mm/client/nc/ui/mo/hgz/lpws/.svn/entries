@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="253"
+   name=""
+   committed-date="2019-09-30T03:14:52.506005Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/mm/client/nc/ui/mo/hgz/lpws"
+   last-author="zy"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="258"/>
+<entry
+   committed-rev="252"
+   name="LpwsUI.java"
+   text-time="2019-09-30T05:39:17.842774Z"
+   committed-date="2019-09-30T03:14:02.674234Z"
+   checksum="345d625801ee7f69308ee23a2c398a95"
+   last-author="zy"
+   kind="file"
+   prop-time="2019-09-30T05:39:17.834252Z"/>
+<entry
+   committed-rev="253"
+   name="LpwsHandler.java"
+   text-time="2019-09-30T05:39:17.848790Z"
+   committed-date="2019-09-30T03:14:52.506005Z"
+   checksum="72d8f62b1c8de2b343d09ca2e6b093da"
+   last-author="zy"
+   kind="file"
+   prop-time="2019-09-30T05:39:17.837260Z"/>
+<entry
+   committed-rev="216"
+   name="LpwsController.java"
+   text-time="2019-09-12T05:28:16.495293Z"
+   committed-date="2019-09-16T05:51:31.741579Z"
+   checksum="56fab394ab72d0e1f0212a4052e5c085"
+   last-author="zwx"
+   kind="file"/>
+</wc-entries>

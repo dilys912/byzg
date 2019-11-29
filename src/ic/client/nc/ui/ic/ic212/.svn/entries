@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/ic/client/nc/ui/ic/ic212"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="206"
+   name="ClientUI.java"
+   text-time="2019-08-26T03:37:31.587558Z"
+   committed-date="2019-09-04T03:49:14.245944Z"
+   checksum="8bfd4eea6601bda642b38c95e3ec9467"
+   last-author="zwx"
+   kind="file"
+   prop-time="2019-08-23T03:30:16.916143Z"
+   revision="206"/>
+<entry
+   committed-rev="100"
+   name="TestConn.java"
+   text-time="2019-08-23T03:30:16.931769Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="967a03e4596e02b6d5ea18e562102499"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:16.931769Z"/>
+</wc-entries>

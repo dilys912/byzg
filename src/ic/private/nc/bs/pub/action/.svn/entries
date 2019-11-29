@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/ic/private/nc/bs/pub/action"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="N_53_SAVE.java"
+   text-time="2019-08-23T03:30:13.616627Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2939cc346d6bc233893b0c7585b42239"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:13.600997Z"/>
+<entry
+   committed-rev="100"
+   name="N_53_JCGL.java"
+   text-time="2019-08-23T03:30:13.616627Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="27975a33ec3e6b1d21aacdfdd4de0105"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:13.600997Z"/>
+<entry
+   committed-rev="100"
+   name="N_45_SIGN.java"
+   text-time="2019-08-23T03:30:13.632210Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="f1e5723824c30c225a3ea9048bed397d"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:13.616627Z"/>
+</wc-entries>

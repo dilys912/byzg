@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<public>
+		<component name="ISendFyrPlan" remote="false" singleton="false" tx="NONE">
+            <implementation>nc.impl.pub.fyrplan.SendFyrPlanImpl</implementation>
+        </component>
+	</public>
+	<private>
+	</private>
+</module>

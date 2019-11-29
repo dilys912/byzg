@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/bs/ia/ia401"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   name="uncalculate"
+   kind="dir"/>
+<entry
+   committed-rev="100"
+   name="AbstractAction.java"
+   text-time="2019-08-23T03:30:41.165411Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="9117ce01f271d0470aa8ddf495ab4480"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:41.150441Z"/>
+<entry
+   committed-rev="100"
+   name="SaveAction.java"
+   text-time="2019-08-23T03:30:41.165411Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="272162277f7d9695910a9ef737f88b6e"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:41.150441Z"/>
+<entry
+   committed-rev="100"
+   name="UnCalculateOperator.java"
+   text-time="2019-08-23T03:30:41.165411Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="da1295d918028f834d8232c2582d1c09"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:41.150441Z"/>
+</wc-entries>

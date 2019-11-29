@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="153"
+   name=""
+   committed-date="2019-08-23T03:10:51.412242Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/ic/client/nc/ui/ic/isolation"
+   last-author="zy"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="IsolationUI.java"
+   text-time="2019-08-23T03:30:20.390218Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="3f992e84af3382d1968e7ab691dd64bc"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:20.228158Z"/>
+<entry
+   committed-rev="100"
+   name="ShowResult.java"
+   text-time="2019-08-23T03:30:20.405815Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="1db1cea7b2a1772d29422dda71e91793"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:20.243966Z"/>
+<entry
+   committed-rev="100"
+   name="ShowSalesOutResult.java"
+   text-time="2019-08-23T03:30:20.405815Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="008265c2d8cb8be80afa500acd74fa01"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:20.260009Z"/>
+<entry
+   committed-rev="100"
+   name="IsolationEventHandler.java"
+   text-time="2019-08-23T03:30:20.405815Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2d0ba50733cad9880651c3a738699027"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:20.265174Z"/>
+<entry
+   committed-rev="100"
+   name="IsolationController.java"
+   text-time="2019-08-23T03:30:20.421443Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="d6beb5872f926c5b0acad5088529d1ff"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:20.265174Z"/>
+<entry
+   committed-rev="209"
+   name="IsolationQueryConditionDlg.java"
+   text-time="2019-09-05T07:48:15.624961Z"
+   committed-date="2019-09-05T02:45:54.178775Z"
+   checksum="b921ee7d87ccaf54d28a2c952d8ec801"
+   last-author="zy"
+   kind="file"
+   prop-time="2019-09-05T07:48:15.618900Z"
+   revision="209"/>
+<entry
+   committed-rev="100"
+   name="IsolationDiaoboSalesOutDlg.java"
+   text-time="2019-08-23T03:30:20.421443Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="7c03484773751799e21449e1f40b7e8b"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:20.327827Z"/>
+<entry
+   committed-rev="100"
+   name="ShowDiaoboSalesOutResult.java"
+   text-time="2019-08-23T03:30:20.437067Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="f10fe2869da20888b2bb61d3571effcd"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:20.343310Z"/>
+<entry
+   committed-rev="100"
+   name="IsolationQuerySalesOutDlg.java"
+   text-time="2019-08-23T03:30:20.437067Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="79676c5e8f94f51b46461c5757fe9405"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:20.390218Z"/>
+</wc-entries>

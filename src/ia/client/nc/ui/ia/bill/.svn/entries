@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/ia/client/nc/ui/ia/bill"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="BillClientUI.java"
+   text-time="2019-08-23T03:30:11.228188Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="6caf19468376171eb9162f3e28df3aeb"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.212581Z"/>
+<entry
+   committed-rev="100"
+   name="IABtnConst.java"
+   text-time="2019-08-23T03:30:11.228188Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="08ff30e52a7101c62c94667626965ac7"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.212581Z"/>
+</wc-entries>

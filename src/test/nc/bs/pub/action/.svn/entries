@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/bs/pub/action"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="N_33_BaseSoSquare.java"
+   text-time="2019-08-23T03:30:40.446836Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="cb96cc96df770fb0cb8eb4b76f4203cc"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:40.368707Z"/>
+<entry
+   committed-rev="100"
+   name="N_4A_SAVE.java"
+   text-time="2019-08-23T03:30:40.462462Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="290412d38ea518a8385b3579bd817380"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:40.384330Z"/>
+<entry
+   committed-rev="100"
+   name="N_4Q_SAVE.java"
+   text-time="2019-08-23T03:30:40.462462Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="eb6c98db87c5797fceab49f72658c8d8"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:40.384330Z"/>
+<entry
+   committed-rev="100"
+   name="N_32_SoUnApprove.java"
+   text-time="2019-08-23T03:30:40.462462Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="184399082a7c261c58cce03879ecf97d"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:40.384330Z"/>
+<entry
+   committed-rev="100"
+   name="N_4D_SAVE.java"
+   text-time="2019-08-23T03:30:40.478142Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="db4722eb4d95a2857d7b84e29a2cd0e2"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:40.384330Z"/>
+<entry
+   committed-rev="100"
+   name="N_45_SAVE.java"
+   text-time="2019-08-23T03:30:40.478142Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="e3556c36cff2006db0a3fc592f835813"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:40.399955Z"/>
+<entry
+   committed-rev="100"
+   name="N_46_SIGN.java"
+   text-time="2019-08-23T03:30:40.478142Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="5adca9cd88f123d7c2fa02885ea20ffa"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:40.399955Z"/>
+<entry
+   committed-rev="100"
+   name="N_33_UnSoSquare.java"
+   text-time="2019-08-23T03:30:40.493716Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="edc81301022d1bf9cabfb20d095f7fcb"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:40.431211Z"/>
+<entry
+   committed-rev="100"
+   name="N_25_DISCARD.java"
+   text-time="2019-08-23T03:30:40.493716Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="e0dbfcb55a405433cb88f3753570db01"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:40.431211Z"/>
+<entry
+   committed-rev="100"
+   name="N_32_APPROVE.java"
+   text-time="2019-08-23T03:30:40.493716Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="2b9bd76882e5e35636d51f791ba920f4"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:40.446836Z"/>
+<entry
+   committed-rev="100"
+   name="N_A2_SAVE.java"
+   text-time="2019-08-23T03:30:40.509342Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="5bb24ec8cc28e2865cfe2e2dab5b772b"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:40.446836Z"/>
+</wc-entries>

@@ -1,0 +1,2 @@
+CREATE OR REPLACE VIEW V_IC_ONHANDNUM4 AS
+SELECT h.pk_corp,h.ccalbodyid,h.cwarehouseid,h.cinventoryid, h.vfree1,h.vfree2,h.vfree3,h.vfree4,h.vfree5,h.vfree6,h.vfree7,h.vfree8,h.vfree9,h.vfree10, h.vlot AS vbatchcode,s.dvalidate,h.castunitid,h.nonhandnum AS ninnum,h.nonhandastnum AS ninassistnum, CAST (NULL AS numeric (20, 8))  AS noutnum,CAST (NULL AS numeric (20, 8))  AS noutassistnum, h.cvendorid,h.hsl,h.ngrossnum,h.cinvbasid,s.dproducedate as scrq FROM ic_onhandnum h left outer join scm_batchcode s on h.cinvbasid=s.pk_invbasdoc and h.vlot=s.vbatchcode;

@@ -1,0 +1,107 @@
+PDA基础档案修改：
+1.客户化-》基本档案-》库位信息-》仓库档案（公司级）：
+	说明：*修改仓库单据模板：10081002 ，将"def5"字段->改名为“PDA备注”
+				*修改功能注册入口类为：nc.ui.bd.warehouseinfo.WarehouseCardUIExt
+				*后台代码修改（uapbd模块/client）：扩展UI类：nc.ui.bd.warehouseinfo.WarehouseCardUIExt
+												    扩展EventHandler类:nc.ui.bd.warehouseinfo.WarehouseCardEventHandlerExt
+
+2.客户化-》基本档案-》库存信息-》货位档案（公司级）：
+	说明：*用掉单据模板-》10081004中“备注”字段。
+				*修改功能注册入口类为：nc.ui.bd.b27.ClientUIExt
+				*后台代码修改（uapbd模块/client）：扩展UI类：nc.ui.bd.b27.ClientUIExt
+				*新增扩展类：nc.ui.bd.b27.CargdocBO_ClientExt		
+
+3.客户化-》基本档案-》存货信息-》存货分类（公司级）10081202 ：
+	说明：*界面上新增：“备注”label->此字段通过后台代码添加上去。
+				*数据库新增字段：bd_invcl-》memo varchar2(100)
+	  		*修改功能注册入口类：nc.ui.bd.b14.ClientUIExt
+	  		*NC数据字典改动：bd_invcl表中新增 memo varchar 字段
+	  		*后台代码修改（uapbd模块/client）:扩展类：nc.ui.bd.b14.ClientUIExt
+	  										  扩展类：nc.ui.bd.b14.InvclBO_ClientExt
+	  										  扩展类：nc.ui.bd.b14.NodePanelExt
+	  					（uapbd模块/public）:修改源码：nc.vo.bd.b14.InvClMapping
+	  										 修改源码：nc.vo.bd.b14.InvclVO
+	  																	    
+4.供应链-》发运管理-》基础设置-》运费价格表（承运商档案（公司级））：
+	说明：*单据模板：77，新增“memo”字段
+				*UI入口类，不修改
+				*数据库新增字段：dm_baseprice-》memo varchar2(100)
+				*后台代码修改（dm模块/client）：nc.ui.dm.dm004.ClientUI
+							（dm模块/private）:nc.bs.dm.dm004.BasepriceDMO
+							（dm模块/public）：nc.vo.dm.dm004.DmBasepriceVO
+										 	 ：nc.vo.dm.dm004.DmBasepriceVOMeta
+										 									
+5.客户化-》基本档案-》业务信息-》发运方式（公司级）：
+	说明：*单据模板修改：10082002 -》新增“memo”自定义字段
+				*数据新增字段：bd_sendtype-》memo varchar2(100)	
+				*修改功能注册入口类为：nc.ui.bd.operationinfo.SendTypeUIExt	
+				*后台代码修改（uapbd模块/client）：扩展类：nc.ui.bd.operationinfo.SendTypeUIExt							 									  																	    
+											          ：扩展类：nc.ui.bd.operationinfo.SendTypeHandlerExt
+					                      （uapbd模块/public）: 修改源码：nc.vo.bd.operationinfo.SendtypeVO										 
+											
+6.客户化-》基本档案-》组织机构-》部门档案（公司级）：
+	说明：*用掉单据模板：10080404中“memo”字段
+				*修改功能注册入口类为：nc.ui.bd.deptdoc.DeptDocUIExt
+				*后台代码修改（uap模块/client）：扩展类：nc.ui.bd.deptdoc.DeptDocUIExt
+											  : 扩展类：nc.ui.bd.deptdoc.DeptDocEHDExt								
+
+SQL语句备注：
+		1.仓库档案：
+			#功能入口类修改：
+				update pub_billtemplet_b set defaultshowname='PDA备注',listshowflag='Y',showflag=1,showorder=34 where pk_billtemplet='0001A210000000053HUG' and itemkey='def5';
+				commit;
+			#单据模板修改：
+				update sm_funcregister set class_name='nc.ui.bd.warehouseinfo.WarehouseCardUIExt' where fun_code='10081002';
+				commit;
+		2.货位档案：10081004
+			#功能入口类修改：
+				update sm_funcregister set class_name='nc.ui.bd.b27.ClientUIExt' where fun_code='10081004';
+				commit;
+		3.存货分类：
+			#功能入口类修改：
+				update sm_funcregister set class_name='nc.ui.bd.b14.ClientUIExt' where fun_code='10081202';
+				commit;
+			#数据库表结构改动：
+				alter table bd_invcl add memo varchar2(100) ;
+				commit;
+			#NC数据字典改动：
+				*手工修改数据字典：bd_invcl 新增 memo varchar 字段；
+		4.运费价格表（承运商档案）
+			#单据模板改动：nodecode=40140216
+				insert into pub_billtemplet_b (CARDFLAG, DATATYPE, DEFAULTSHOWNAME, DEFAULTVALUE, DR, EDITFLAG, EDITFORMULA, FOREGROUND, IDCOLNAME, INPUTLENGTH, ITEMKEY, ITEMTYPE, LEAFFLAG, LISTFLAG, LISTSHOWFLAG, LOADFORMULA, LOCKFLAG, NEWLINEFLAG, NULLFLAG, OPTIONS, PK_BILLTEMPLET, PK_BILLTEMPLET_B, PK_CORP, POS, REFTYPE, RESID, RESID_TABNAME, REVISEFLAG, SHOWFLAG, SHOWORDER, TABLE_CODE, TABLE_NAME, TOTALFLAG, TS, USERDEFFLAG, USERDEFINE1, USERDEFINE2, USERDEFINE3, USEREDITFLAG, USERFLAG, USERREVISEFLAG, USERSHOWFLAG, VALIDATEFORMULA, WIDTH)
+					values (1, 0, '备注', '', 0, 1, '', -1, '', 20, 'memo', 0, 'N', 1, 'Y', '', 0, 'N', 0, '', '0001A21000000004QV93', '0001AA1000000006G9VX', '@@@@', 1, '', '', '', 'N', 1, 320, 'table', '子表', 0, '2014-02-22 09:53:27', 'N', '', '', '', 1, 1, 'N', 1, '', 100);
+			#数据库表结构改动：
+				alter table dm_baseprice add memo varchar2(100) ;
+				commit;	  
+		5.发运方式
+			#功能入口类修改：
+				update sm_funcregister set class_name='nc.ui.bd.operationinfo.SendTypeUIExt' where fun_code='10082002';
+				commit;
+			#单据模板修改：
+				insert into pub_billtemplet_b (CARDFLAG, DATATYPE, DEFAULTSHOWNAME, DEFAULTVALUE, DR, EDITFLAG, EDITFORMULA, FOREGROUND, IDCOLNAME, INPUTLENGTH, ITEMKEY, ITEMTYPE, LEAFFLAG, LISTFLAG, LISTSHOWFLAG, LOADFORMULA, LOCKFLAG, NEWLINEFLAG, NULLFLAG, OPTIONS, PK_BILLTEMPLET, PK_BILLTEMPLET_B, PK_CORP, POS, REFTYPE, RESID, RESID_TABNAME, REVISEFLAG, SHOWFLAG, SHOWORDER, TABLE_CODE, TABLE_NAME, TOTALFLAG, TS, USERDEFFLAG, USERDEFINE1, USERDEFINE2, USERDEFINE3, USEREDITFLAG, USERFLAG, USERREVISEFLAG, USERSHOWFLAG, VALIDATEFORMULA, WIDTH)
+					values (1, 0, '备注', '', 0, 1, '', -1, '', 20, 'memo', 0, 'N', 1, 'Y', '', 0, 'N', 0, '', '100820020001e6tze7sg', '0001AA1000000006GLGM', '@@@@', 1, '', '', '', 'N', 1, 11, 'bd_sendtype', '发运方式', 0, '2014-02-24 08:06:27', 'N', '', '', '', 1, 1, 'N', 1, '', 100);
+			#数据库表结构改动：	
+				alter table bd_sendtype add memo varchar2(100) ;
+				commit;			
+		6.部门档案：
+			#功能注册入口类修改：
+				update sm_funcregister set class_name='nc.ui.bd.deptdoc.DeptDocUIExt' where fun_code='10080404';
+				commit;
+			
+				
+																														
+																														
+																														
+=================================================== 2014/6/4 =====================================================
+update pub_billtemplet_b set defaultshowname='PDA备注',listshowflag='Y',showflag=1,showorder=34 where pk_billtemplet='0001A210000000053HUG' and itemkey='def5';
+update sm_funcregister set class_name='nc.ui.bd.warehouseinfo.WarehouseCardUIExt' where fun_code='10081002';
+update sm_funcregister set class_name='nc.ui.bd.b27.ClientUIExt' where fun_code='10081004';
+update sm_funcregister set class_name='nc.ui.bd.b14.ClientUIExt' where fun_code='10081202';
+alter table bd_invcl add memo varchar2(100);
+-- 手工修改数据字典：bd_invcl 新增 memo varchar 字段
+insert into pub_billtemplet_b (CARDFLAG, DATATYPE, DEFAULTSHOWNAME, DEFAULTVALUE, DR, EDITFLAG, EDITFORMULA, FOREGROUND, IDCOLNAME, INPUTLENGTH, ITEMKEY, ITEMTYPE, LEAFFLAG, LISTFLAG, LISTSHOWFLAG, LOADFORMULA, LOCKFLAG, NEWLINEFLAG, NULLFLAG, OPTIONS, PK_BILLTEMPLET, PK_BILLTEMPLET_B, PK_CORP, POS, REFTYPE, RESID, RESID_TABNAME, REVISEFLAG, SHOWFLAG, SHOWORDER, TABLE_CODE, TABLE_NAME, TOTALFLAG, TS, USERDEFFLAG, USERDEFINE1, USERDEFINE2, USERDEFINE3, USEREDITFLAG, USERFLAG, USERREVISEFLAG, USERSHOWFLAG, VALIDATEFORMULA, WIDTH) values (1, 0, '备注', '', 0, 1, '', -1, '', 20, 'memo', 0, 'N', 1, 'Y', '', 0, 'N', 0, '', '0001A21000000004QV93', '0001AA1000000006G9VX', '@@@@', 1, '', '', '', 'N', 1, 320, 'table', '子表', 0, '2014-02-22 09:53:27', 'N', '', '', '', 1, 1, 'N', 1, '', 100);
+alter table dm_baseprice add memo varchar2(100) ;
+update sm_funcregister set class_name='nc.ui.bd.operationinfo.SendTypeUIExt' where fun_code='10082002';
+insert into pub_billtemplet_b (CARDFLAG, DATATYPE, DEFAULTSHOWNAME, DEFAULTVALUE, DR, EDITFLAG, EDITFORMULA, FOREGROUND, IDCOLNAME, INPUTLENGTH, ITEMKEY, ITEMTYPE, LEAFFLAG, LISTFLAG, LISTSHOWFLAG, LOADFORMULA, LOCKFLAG, NEWLINEFLAG, NULLFLAG, OPTIONS, PK_BILLTEMPLET, PK_BILLTEMPLET_B, PK_CORP, POS, REFTYPE, RESID, RESID_TABNAME, REVISEFLAG, SHOWFLAG, SHOWORDER, TABLE_CODE, TABLE_NAME, TOTALFLAG, TS, USERDEFFLAG, USERDEFINE1, USERDEFINE2, USERDEFINE3, USEREDITFLAG, USERFLAG, USERREVISEFLAG, USERSHOWFLAG, VALIDATEFORMULA, WIDTH) values (1, 0, '备注', '', 0, 1, '', -1, '', 20, 'memo', 0, 'N', 1, 'Y', '', 0, 'N', 0, '', '100820020001e6tze7sg', '0001AA1000000006GLGM', '@@@@', 1, '', '', '', 'N', 1, 11, 'bd_sendtype', '发运方式', 0, '2014-02-24 08:06:27', 'N', '', '', '', 1, 1, 'N', 1, '', 100);
+alter table bd_sendtype add memo varchar2(100) ;
+update sm_funcregister set class_name='nc.ui.bd.deptdoc.DeptDocUIExt' where fun_code='10080404';

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/pu/client/nc/ui/pr/pray"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="168"/>
+<entry
+   committed-rev="100"
+   name="PrayUI.java"
+   text-time="2019-08-23T03:31:06.792636Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="39f363fcfabe664f02883e9eb69c9010"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:31:06.777096Z"/>
+</wc-entries>

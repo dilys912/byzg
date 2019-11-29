@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/dm/client/nc/ui/dm/dm104"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="OutBillDlg.java"
+   text-time="2019-08-23T03:30:27.511782Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="1fc4bb752adfeff0432644b7e2b4f52f"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:26.697212Z"/>
+<entry
+   committed-rev="100"
+   name="QueryXclVO.java"
+   text-time="2019-08-23T03:30:27.511782Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="691e4406488235754484eed32b392a09"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:26.697212Z"/>
+<entry
+   committed-rev="100"
+   name="Query7FDLG.java"
+   text-time="2019-08-23T03:30:27.527407Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="0485af553ddb16b988ccd9a2687ced0c"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:26.697212Z"/>
+<entry
+   committed-rev="100"
+   name="ClientUI.java"
+   text-time="2019-08-23T03:30:27.527407Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="afef55bb281522026f699e56a2830195"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:27.480533Z"/>
+<entry
+   committed-rev="100"
+   name="QueryXcl.java"
+   text-time="2019-08-23T03:30:27.543034Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="16b6b35317ccb479c08fbf3c4e9963f9"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:27.496438Z"/>
+</wc-entries>

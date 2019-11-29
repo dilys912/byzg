@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/test/nc/vo/pub/querymodel"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="MultiDataSet.java"
+   text-time="2019-08-23T03:30:45.165839Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="d8c7600d2a276b9bf96c69591fae39c4"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:45.134586Z"/>
+<entry
+   committed-rev="100"
+   name="DatasetUtil.java"
+   text-time="2019-08-23T03:30:45.165839Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="09eb0477856b317d745c5f8ff3e574ec"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:45.134586Z"/>
+<entry
+   committed-rev="100"
+   name="QueryBaseVO.java"
+   text-time="2019-08-23T03:30:45.165839Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="5fe483983ca32f3f0b007c18eef56134"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:45.134586Z"/>
+<entry
+   committed-rev="100"
+   name="QueryModelDef.java"
+   text-time="2019-08-23T03:30:45.181466Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="7652055abcca9354c58a8b91cf7e74f2"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:45.150213Z"/>
+<entry
+   committed-rev="100"
+   name="DataSetContainer.java"
+   text-time="2019-08-23T03:30:45.181466Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="ed65d79f3a7d5ced997479839b1087ba"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:45.150213Z"/>
+<entry
+   committed-rev="100"
+   name="ModelUtil.java"
+   text-time="2019-08-23T03:30:45.181466Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="fce28bc717f87963b90eabe7383cb1fa"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:45.150213Z"/>
+</wc-entries>

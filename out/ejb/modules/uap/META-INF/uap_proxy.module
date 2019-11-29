@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="proxy">
+  <public>
+    <component name="nc.itf.pub.rino.IPubDMO" priority="0" singleton="true" remote="true" tx="CMT" supportAlias="true">
+      <interface>nc.itf.pub.rino.IPubDMO</interface>
+      <implementation>nc.impl.pub.rino.PubDMOImpl</implementation>
+      <property name="iPubDMO">
+        <ref>IPubDMO</ref>
+      </property>
+    </component>
+  </public>
+  <private />
+</module>
+

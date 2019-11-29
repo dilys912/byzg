@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<public>
+    <component priority="0" singleton="true" remote="true" tx="NONE" >
+      <interface>nc.utils.modify.is.IdetermineService</interface>
+      <implementation>nc.utils.modify.im.DetermineImpl</implementation>
+    </component>
+  </public>
+	<private>
+    <component name="IdetermineService" priority="0" singleton="true" supportAlias="true">
+      <implementation>nc.utils.modify.im.DetermineImpl</implementation>
+    </component> 
+  </private>
+</module>

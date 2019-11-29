@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2019-07-16T08:48:09.469364Z"
+   url="https://121.40.49.47/svn/baosteeltwo/baosteel0504/src/ic/private/nc/impl/ic/bgwork"
+   last-author="mcw"
+   kind="dir"
+   uuid="7f9f5bfd-4651-1d4f-b760-b8b326af03d2"
+   repos="https://121.40.49.47/svn/baosteeltwo"
+   revision="153"/>
+<entry
+   committed-rev="100"
+   name="HrbBackTask.java"
+   text-time="2019-08-23T03:30:11.696984Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="f2fcf5572ae4947d6a66371fcef3407c"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.665731Z"/>
+<entry
+   committed-rev="100"
+   name="WhBackTask.java"
+   text-time="2019-08-23T03:30:11.696984Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="002a6d7e6f9baa8ad4afbe8f381e54a3"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.665731Z"/>
+<entry
+   committed-rev="100"
+   name="HnBackTask.java"
+   text-time="2019-08-23T03:30:11.696984Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="d57ed1597abb488502f3c53dc0b3eda8"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.665731Z"/>
+<entry
+   committed-rev="100"
+   name="CdBackTask.java"
+   text-time="2019-08-23T03:30:11.712610Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="5d2d0764e523b00bfd7e9908a92b892c"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.681357Z"/>
+<entry
+   committed-rev="100"
+   name="FsBackTask.java"
+   text-time="2019-08-23T03:30:11.743872Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="e8e759f8ba3d178dc0fd1f101d7384ed"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.681357Z"/>
+<entry
+   committed-rev="100"
+   name="HbBackTask.java"
+   text-time="2019-08-23T03:30:11.822318Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="a0498efb566940c4db29111a130c3a68"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.681357Z"/>
+<entry
+   committed-rev="100"
+   name="RxBackTask.java"
+   text-time="2019-08-23T03:30:11.822318Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="e438da6b01258f49790a99386af9d138"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.681357Z"/>
+<entry
+   committed-rev="100"
+   name="ByBackTask.java"
+   text-time="2019-08-23T03:30:11.837624Z"
+   committed-date="2019-07-16T08:48:09.469364Z"
+   checksum="99563bdae6643237d52bddd9403bcda5"
+   last-author="mcw"
+   kind="file"
+   prop-time="2019-08-23T03:30:11.681357Z"/>
+</wc-entries>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<public>
+    <component priority="0" singleton="true" remote="true" tx="NONE" >
+      <interface>nc.itf.wrback.state.IWriteBackStateService</interface>
+      <implementation>nc.impl.wrback.state.WriteBackStateImpl</implementation>
+    </component>
+  </public>
+	<private>
+    <component name="IWriteBackStateService" priority="0" singleton="true" supportAlias="true">
+      <implementation>nc.impl.wrback.state.WriteBackStateImpl</implementation>
+    </component> 
+  </private>
+</module>
